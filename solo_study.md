@@ -51,34 +51,32 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
 ### Plan
 
 - [ ] Complete the last 5 tasks of [Objects Basics Tutorial](https://learn.javascript.info/object)
+  - [ ] Link to your solution here (jsbin, gist, or a js file in this repo)
 - [ ] Complete the last 5 tasks of [Arrays Tutorial](https://learn.javascript.info/array)
+ - [ ] Link to your solution here
 - [ ] Complete the last 5 tasks of [Array Methods](https://learn.javascript.info/array)
+ - [ ] Link to your solution here
 - [ ] Complete the [Learn JS Basics tutorial](http://www.learn-js.org/en/Welcome)
 - [ ] Complete the [Learn JS Objects tutorial](http://www.learn-js.org/en/Object_Oriented_JavaScript)
+
+*These next 3 steps are part of [Front End Masters JS Course](https://frontendmasters.com/courses/js-fundamentals-to-functional/). You might need to watch the videos and part of the course to make it through. Reach out to staff for an invite code if you don't already have an account.*
+
+- [ ] Complete the [Array Exercises](https://github.com/bgando/array-exercises)
+  - [ ] Link to your solution here
+- [ ] Complete the [Function Exercises](https://github.com/bgando/function-exercises)
+  - [ ] Link to your solution here
+- [ ] Complete the [Object Exercises](https://github.com/bgando/object-exercises)
+  - [ ] Link to your solution here
 
 
 ### Stretch
 
 - [ ] Complete [Free Code Camp Basic Javascript](https://www.freecodecamp.com/map-aside#nested-collapseBasicJavaScript)
-- [ ]
 - [ ] Read [Javascript Objects in Detail](http://javascriptissexy.com/javascript-objects-in-detail/)
 - [ ] Watch the first 11 - [ ] Watch the first 11 [Fundamentals Videos](https://channel9.msdn.com/Series/JavaScript-Fundamentals-Development-for-Absolute-Beginners)
 - [ ] Read pages 173 to 184 in [Professional JS for Web Developers][projs]
 - [ ] Signup for a free Team Treehouse trial and complete their [Object Oriented Javascript Course] (https://teamtreehouse.com/library/objectoriented-javascript)
 - [ ] Skim this [cheat sheet][cheat]
-
-- [ ] Watch these videos:
-  - https://shereef.wistia.com/medias/wfybhl2nmr
-  - https://shereef.wistia.com/medias/kqbedkmm13
-- [ ] Read [Undrestanding Javascrpt's This with Clarity and Mastery](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
-- [ ] Read [What is this in Javascript](http://www.code-sample.com/2015/06/what-is-this-in-javascript.html)
-- [ ] Complete the [Keyword "this" lesson][udacity]
-
-### Stretch
-
-- [ ] Read Chapter 4 of [Eloquent Javascript][el]
-- [ ] Do exercises for Chapter 4 of [Object Oriented Javascript][oojs] (and maybe read it)
-- [ ] Study these [top 50 OOPs interview questions](http://career.guru99.com/top-50-oops-interview-questions/)
 
 ## Day 3: Recursion &  More Challenges
 
