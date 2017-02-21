@@ -68,6 +68,13 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
 - [ ] Complete the [Object Exercises](https://github.com/bgando/object-exercises)
   - [ ] Link to your solution here
 
+- Browse in the terminal to the `js-assessment` folder in this repo.
+- Run `npm install` and `npm start`, then goto `http://127.0.0.1:4444/` in your browser.
+- You should see a bunch of failing tests
+- [ ] Update `js-asessment/app/flowControl.js` to make this section's tests pass
+- [ ] Update `js-asessment/app/logicalOperators.js` to make this section's tests pass
+- [ ] Update `js-asessment/app/logicalNumbers.js` to make this section's tests pass
+
 
 ### Stretch
 
@@ -99,6 +106,16 @@ Ok, on for some more drills.
 - [ ] Sign up for an [edabit](http://edabit.com) account.
 - [ ] Solve all 10 array challenges linked in [/challenges/edabit-arrays.js](/challenges/edabit-arrays.js) and commit your solutions to the file
 
+- Browse in the terminal to the `js-assessment` folder in this repo.
+- Run `npm start`, then goto `http://127.0.0.1:4444/` in your browser.
+- You should see a bunch of failing tests
+- [ ] Update `js-asessment/app/arrays.js` to make this section's tests pass
+- [ ] Update `js-asessment/app/strings.js` to make this section's tests pass
+- [ ] Update `js-asessment/app/objects.js` to make this section's tests pass
+- [ ] Update `js-asessment/app/count.js` to make this section's tests pass
+- [ ] Update `js-asessment/app/bestPractices.js` to make this section's tests pass
+- [ ] Update `js-asessment/app/functions.js` to make this section's tests pass
+
 ### Stretch
 
 - [ ] Read chapter 3 in [Professional JS for Web Developers][projs]
@@ -106,7 +123,20 @@ Ok, on for some more drills.
 
 ## Day 4: Recursion, and Bigger Challenges
 
-- [ ] Start (and maybe finish) the [Final Project][udacity] Lesson on Udacity
+- Browse in the terminal to the `js-assessment` folder in this repo.
+- Run `npm start`, then goto `http://127.0.0.1:4444/` in your browser.
+- You should see a bunch of failing tests
+- [ ] Update `js-asessment/app/recursion.js` to make this section's tests pass
+
+
+### Stretch
+
+- [ ] Research about regular expressions and update `js-asessment/app/regex.js` to make this section's tests pass
+- [ ] Update `js-asessment/app/modules.js` to make this section's tests pass
+- [ ] Update `js-asessment/app/async.js` to make this section's tests pass
+
+
+
 
 ## Day 5: Final Project and check your understanding
 
