@@ -70,4 +70,15 @@ Exercism provides a number of practice problems along with unit tests to ensure 
 
 # Day 4 - Sudoku
 
+Time for a longer challenge. We'll spend the next two days building a sudoku solver
+
+- [ ] Ship Step 1 of [Sudoku Challenge](/Sudoku/README.md)
+- [ ] Ship Step 2 of [Sudoku Challenge](/Sudoku/README.md)
+
 # Day 5 - More Sudoku
+
+- [ ] Ship Step 3 of [Sudoku Challenge](/Sudoku/README.md)
+
+#### Stretch
+
+- [ ] Ship Step 4 of [Sudoku Challenge](/Sudoku/README.md)
