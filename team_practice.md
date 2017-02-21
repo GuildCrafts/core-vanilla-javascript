@@ -1,6 +1,7 @@
 # Core Vanilla JavaScript - Team Practice
 
 A marathon of pair exercises in pure javascript. Capped with a final project.
+It's a good idea to cut your teeth on the [solo_study](solo_study.md) first before attempting these challenges.
 
 ### Exercism
 
@@ -10,27 +11,29 @@ Exercism provides a number of practice problems along with unit tests to ensure 
 
 ### Day 1 - Exercism
 
-- [ ] Solve `/exercism/`
-- [ ] Solve `/exercism/`
-- [ ] Solve `/exercism/`
-- [ ] Solve `/exercism/`
-- [ ] Solve `/exercism/`
+
+- [ ] Solve `/exercism/diamond`
+- [ ] Solve `/exercism/bracket-push`
+- [ ] Solve `/exercism/ocr-numbers`
+- [ ] Solve `/exercism/bowling`
 
 #### Stretch
 
-- [ ] Solve `/exercism/`
-- [ ] Solve `/exercism/`
+- [ ] Solve `/exercism/two-bucket`
+- [ ] Solve `/exercism/all-your-base`
 
 ### Day 2 - Exercism
 
-- [ ] Solve `/exercism/`
-- [ ] Solve `/exercism/`
+- [ ] Solve `/exercism/secret-handshake`
+- [ ] Solve `/exercism/wordy`
 - [ ] Solve `/exercism/`
 - [ ] Solve `/exercism/`
 - [ ] Solve `/exercism/`
 
 #### Stretch
 
+- [ ] Solve `/exercism/trinary`
+- [ ] Solve `/exercism/octal`
 - [ ] Solve `/exercism/`
 - [ ] Solve `/exercism/`
 
@@ -44,6 +47,10 @@ Exercism provides a number of practice problems along with unit tests to ensure 
 
 #### Stretch
 
+- [ ] Solve `/exercism/linked-list`
+- [ ] Solve `/exercism/luhn`
+- [ ] Solve `/exercism/pythagorean-triplet`
+- [ ] Solve `/exercism/`
 - [ ] Solve `/exercism/`
 - [ ] Solve `/exercism/`
 

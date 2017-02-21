@@ -71,9 +71,9 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
 - Browse in the terminal to the `js-assessment` folder in this repo.
 - Run `npm install` and `npm start`, then goto `http://127.0.0.1:4444/` in your browser.
 - You should see a bunch of failing tests
-- [ ] Update `js-asessment/app/flowControl.js` to make this section's tests pass
-- [ ] Update `js-asessment/app/logicalOperators.js` to make this section's tests pass
-- [ ] Update `js-asessment/app/logicalNumbers.js` to make this section's tests pass
+- [ ] Update `js-asessment/app/flowControl.js` to make the section's tests pass
+- [ ] Update `js-asessment/app/logicalOperators.js` to make the section's tests pass
+- [ ] Update `js-asessment/app/logicalNumbers.js` to make the section's tests pass
 
 
 ### Stretch
@@ -109,12 +109,12 @@ Ok, on for some more drills.
 - Browse in the terminal to the `js-assessment` folder in this repo.
 - Run `npm start`, then goto `http://127.0.0.1:4444/` in your browser.
 - You should see a bunch of failing tests
-- [ ] Update `js-asessment/app/arrays.js` to make this section's tests pass
-- [ ] Update `js-asessment/app/strings.js` to make this section's tests pass
-- [ ] Update `js-asessment/app/objects.js` to make this section's tests pass
-- [ ] Update `js-asessment/app/count.js` to make this section's tests pass
-- [ ] Update `js-asessment/app/bestPractices.js` to make this section's tests pass
-- [ ] Update `js-asessment/app/functions.js` to make this section's tests pass
+- [ ] Update `js-asessment/app/arrays.js` to make the section's tests pass
+- [ ] Update `js-asessment/app/strings.js` to make the section's tests pass
+- [ ] Update `js-asessment/app/objects.js` to make the section's tests pass
+- [ ] Update `js-asessment/app/count.js` to make the section's tests pass
+- [ ] Update `js-asessment/app/bestPractices.js` to make the section's tests pass
+- [ ] Update `js-asessment/app/functions.js` to make the section's tests pass
 
 ### Stretch
 
@@ -130,21 +130,21 @@ Let's do more Koans to get our day started
 - In your forked repo, find the `Koans` sub directory.
 - Find `jskoansbasics.html` and open it in a browser
 
-- [ ] Find edit `about_asserts.js` to make the tests pass
-- [ ] Find edit `about_operators.js` to make the tests pass
-- [ ] Find edit `about_equality.js` to make the tests pass
-- [ ] Find edit `about_truthyness.js` to make the tests pass
-- [ ] Find edit `about_assignment.js` to make the tests pass
-- [ ] Find edit `about_control_structures.js` to make the tests pass
-- [ ] Find edit `about_strings.js` to make the tests pass
-- [ ] Find edit `about_numbers.js` to make the tests pass
-- [ ] Find edit `about_objects.js` to make the tests pass
-- [ ] Find edit `about_arrays.js` to make the tests pass
+- [ ] Find & edit `about_asserts.js` to make the tests pass
+- [ ] Find & edit `about_operators.js` to make the tests pass
+- [ ] Find & edit `about_equality.js` to make the tests pass
+- [ ] Find & edit `about_truthyness.js` to make the tests pass
+- [ ] Find & edit `about_assignment.js` to make the tests pass
+- [ ] Find & edit `about_control_structures.js` to make the tests pass
+- [ ] Find & edit `about_strings.js` to make the tests pass
+- [ ] Find & edit `about_numbers.js` to make the tests pass
+- [ ] Find & edit `about_objects.js` to make the tests pass
+- [ ] Find & edit `about_arrays.js` to make the tests pass
 
 - Browse in the terminal to the `js-assessment` folder in this repo.
 - Run `npm start`, then goto `http://127.0.0.1:4444/` in your browser.
 - You should see a bunch of failing tests
-- [ ] Update `js-asessment/app/recursion.js` to make this section's tests pass
+- [ ] Update `js-asessment/app/recursion.js` to make the section's tests pass
 
 ### Exercism
 
@@ -152,24 +152,24 @@ Exercism provides a number of practice problems along with unit tests to ensure 
 
 - Read the [Exercism setup](/exercism/setup.md) instructions
 
-- [ ] Solve `/exercism/`
-- [ ] Solve `/exercism/`
-- [ ] Solve `/exercism/`
-- [ ] Solve `/exercism/`
-- [ ] Solve `/exercism/`
+- [ ] Solve `/exercism/saddle-points`
+- [ ] Solve `/exercism/meetup`
+- [ ] Solve `/exercism/run-length-encoding`
+- [ ] Solve `/exercism/crypto-square`
+- [ ] Solve `/exercism/pig-latin`
+- [ ] Solve `/exercism/series`
+- [ ] Solve `/exercism/flatten-array`
+- [ ] Solve `/exercism/difference-of-squares`
+- [ ] Solve `/exercism/sieve`
 
 #### Stretch
 
 
+- [ ] Solve `/exercism/simple-cipher`
 - [ ] Solve `/exercism/`
-- [ ] Solve `/exercism/`
-- [ ] Research about regular expressions and update `js-asessment/app/regex.js` to make this section's tests pass
-- [ ] Update `js-asessment/app/modules.js` to make this section's tests pass
-- [ ] Update `js-asessment/app/async.js` to make this section's tests pass
-
-
-## Stretch Goals
-
+- [ ] Research about regular expressions and update `js-asessment/app/regex.js` to make the section's tests pass
+- [ ] Update `js-asessment/app/modules.js` to make the section's tests pass
+- [ ] Update `js-asessment/app/async.js` to make the section's tests pass
 - [ ] Complete section 1 of [these exercises](http://ynonperek.com/javascript-exer.html)
 
 
