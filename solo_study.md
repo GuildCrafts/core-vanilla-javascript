@@ -121,7 +121,7 @@ Ok, on for some more drills.
 - [ ] Read chapter 3 in [Professional JS for Web Developers][projs]
 - [ ] Install and go through the [javascripting](https://github.com/workshopper/javascripting) workshop
 
-## Day 4 & 5: Recursion, and Bigger Challenges
+## Day 4: Some Recursion and Bigger Challenges
 
 
 ### Plan
@@ -154,6 +154,11 @@ Exercism provides a number of practice problems along with unit tests to ensure 
 
 - [ ] Solve `/exercism/saddle-points`
 - [ ] Solve `/exercism/meetup`
+
+## Day 5: More challenges
+
+Today is going to be a tough one. These challenges are tricky, and will need you to be focussed 100% to make it through:
+
 - [ ] Solve `/exercism/run-length-encoding`
 - [ ] Solve `/exercism/crypto-square`
 - [ ] Solve `/exercism/pig-latin`
