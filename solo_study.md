@@ -154,6 +154,7 @@ Exercism provides a number of practice problems along with unit tests to ensure 
 
 - [ ] Solve `/exercism/saddle-points`
 - [ ] Solve `/exercism/meetup`
+- [ ] Solve `/exercism/matrix`
 
 ## Day 5: More challenges
 
@@ -165,12 +166,21 @@ Today is going to be a tough one. These challenges are tricky, and will need you
 - [ ] Solve `/exercism/series`
 - [ ] Solve `/exercism/flatten-array`
 - [ ] Solve `/exercism/difference-of-squares`
-- [ ] Solve `/exercism/sieve`
+
 
 #### Stretch
 
+- [ ] Solve `/exercism/sieve`
 - [ ] Solve `/exercism/simple-cipher`
+- [ ] Solve `/exercism/pascals-triangle`
+- [ ] Solve `/exercism/sum-of-multiples`
 - [ ] Solve `/exercism/`
+- [ ] Solve `/exercism/`
+- [ ] Solve `/exercism/`
+- [ ] Solve `/exercism/`
+- [ ] Solve `/exercism/`
+
+
 - [ ] Research about regular expressions and update `js-asessment/app/regex.js` to make the section's tests pass
 - [ ] Update `js-asessment/app/modules.js` to make the section's tests pass
 - [ ] Update `js-asessment/app/async.js` to make the section's tests pass
