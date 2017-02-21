@@ -78,7 +78,7 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
 - [ ] Signup for a free Team Treehouse trial and complete their [Object Oriented Javascript Course] (https://teamtreehouse.com/library/objectoriented-javascript)
 - [ ] Skim this [cheat sheet][cheat]
 
-## Day 3: Recursion &  More Challenges
+## Day 3: Koans and Drills
 
 Let's test our understanding by working on some Koans.
 
@@ -94,7 +94,6 @@ Let's test our understanding by working on some Koans.
 - [ ] Edit AboutApplyingWhatWeHaveLearnt.js to make all tests pass
 - [ ] Write all 10 functions described in [/challenges/10exercises.js](/challenges/10exercises.js)
 
-
 Ok, on for some more drills.
 
 - [ ] Sign up for an [edabit](http://edabit.com) account.
@@ -103,14 +102,10 @@ Ok, on for some more drills.
 ### Stretch
 
 - [ ] Read chapter 3 in [Professional JS for Web Developers][projs]
+- [ ] Install and go through the [javascripting](https://github.com/workshopper/javascripting) workshop
 
-## Day 4: Final Project: Sudoku Solver
+## Day 4: Recursion, and Bigger Challenges
 
-- [ ] Complete the [Object Decorator Pattern][udacity] Lesson on Udacity
-- [ ] Complete the [Functional Classes][udacity] Lesson on Udacity
-- [ ] Complete the [Pseudoclassical Patterns][udacity] Lesson on Udacity
-- [ ] Complete the [Superclass and Subclass Patterns][udacity] Lesson on Udacity
-- [ ] Complete the [Pseudoclassical Sublasses][udacity] Lesson on Udacity
 - [ ] Start (and maybe finish) the [Final Project][udacity] Lesson on Udacity
 
 ## Day 5: Final Project and check your understanding
