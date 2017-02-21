@@ -92,8 +92,13 @@ Let's test our understanding by working on some Koans.
 - [ ] Edit AboutFunctions.js to make all tests pass
 - [ ] Edit AboutArrays.js to make all tests pass
 - [ ] Edit AboutApplyingWhatWeHaveLearnt.js to make all tests pass
-- [ ] Write all 10 functions described in [/challenges/10exercises.js][/challenges/10exercises.js]
+- [ ] Write all 10 functions described in [/challenges/10exercises.js](/challenges/10exercises.js)
 
+
+Ok, on for some more drills.
+
+- [ ] Sign up for an [edabit](http://edabit.com) account.
+- [ ] Solve all 10 array challenges linked in [/challenges/edabit-arrays.js](/challenges/edabit-arrays.js) and commit your solutions to the file
 
 - [ ] Watch these videos on Prototypes:
   - https://shereef.wistia.com/medias/a5m8nwq4su
