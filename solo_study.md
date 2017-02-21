@@ -80,6 +80,21 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
 
 ## Day 3: Recursion &  More Challenges
 
+Let's test our understanding by working on some Koans.
+
+*Note: It's pretty easy to make these test pass. What isn't easy is to make sure you undertand WHY they are passing, and don't move on to the next one until you do*
+
+*Remember: Update this file, and commit your repo, and push to github after every step*
+
+- In your forked repo, find the `javascript-koans` sub directory.
+- Find `KoansRunner.html` and open it in a browser
+- [ ] Edit AboutObjects.js to make all tests pass
+- [ ] Edit AboutFunctions.js to make all tests pass
+- [ ] Edit AboutArrays.js to make all tests pass
+- [ ] Edit AboutApplyingWhatWeHaveLearnt.js to make all tests pass
+- [ ] Write all 10 functions described in [/challenges/10exercises.js][/challenges/10exercises.js]
+
+
 - [ ] Watch these videos on Prototypes:
   - https://shereef.wistia.com/medias/a5m8nwq4su
   - https://shereef.wistia.com/medias/ednchu35gz
