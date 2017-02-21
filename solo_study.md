@@ -121,12 +121,42 @@ Ok, on for some more drills.
 - [ ] Read chapter 3 in [Professional JS for Web Developers][projs]
 - [ ] Install and go through the [javascripting](https://github.com/workshopper/javascripting) workshop
 
-## Day 4: Recursion, and Bigger Challenges
+## Day 4 & 5: Recursion, and Bigger Challenges
+
+
+### Plan
+Let's do more Koans to get our day started
+
+- In your forked repo, find the `Koans` sub directory.
+- Find `jskoansbasics.html` and open it in a browser
+
+- [ ] Find edit `about_asserts.js` to make the tests pass
+- [ ] Find edit `about_operators.js` to make the tests pass
+- [ ] Find edit `about_equality.js` to make the tests pass
+- [ ] Find edit `about_truthyness.js` to make the tests pass
+- [ ] Find edit `about_assignment.js` to make the tests pass
+- [ ] Find edit `about_control_structures.js` to make the tests pass
+- [ ] Find edit `about_strings.js` to make the tests pass
+- [ ] Find edit `about_numbers.js` to make the tests pass
+- [ ] Find edit `about_objects.js` to make the tests pass
+- [ ] Find edit `about_arrays.js` to make the tests pass
 
 - Browse in the terminal to the `js-assessment` folder in this repo.
 - Run `npm start`, then goto `http://127.0.0.1:4444/` in your browser.
 - You should see a bunch of failing tests
 - [ ] Update `js-asessment/app/recursion.js` to make this section's tests pass
+
+### Exercism
+
+Exercism provides a number of practice problems along with unit tests to ensure the accuracy of your answer to the test problems. We will be using exercism challenges for the rest of this goal.
+
+## Setup
+
+All of the Exercism exercises can be done from the comfort of your own command line. This will require some configuration and setup on your part.
+
+1. Install jasmine-node `npm install jasmine-node -g` This is the test framework we will use to run the tests
+2. Using the terminal, browse to the exercism folder
+3. For each of the following challenges, update the .js file to make the tests pass. You can run the tests by running `jasmine-node .`
 
 
 ### Stretch
@@ -136,26 +166,9 @@ Ok, on for some more drills.
 - [ ] Update `js-asessment/app/async.js` to make this section's tests pass
 
 
-
-
-## Day 5: Final Project and check your understanding
-
-- [ ] Complete the [Final Project][udacity] Lesson on Udacity
-
-Do you know/understand:
-
-- Everything [in this article](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
-- Everything in this [cheat sheet][cheat]
-
-
 ## Stretch Goals
 
-- [ ] Read [Chapter 8 of Eloquent Javascript](http://eloquentjavascript.net/1st_edition/chapter8.html)
-- [ ] Read [The Basics of Object Oriented Javascript](https://code.tutsplus.com/tutorials/the-basics-of-object-oriented-javascript--net-7670)
-- [ ] Study this [OOP interview questions](http://www.code-sample.com/2015/04/javascript-interview-questions-answers.html)
-- [ ] Go over these [object oriented javascript interview questions](https://blog.kevinchisholm.com/object-oriented-javascript/javascript-interview-questions-object-oriented-javascript/)
-- [ ] Complete these [3 practice exercises](https://www.ibm.com/developerworks/library/wa-objects-pr/)
-- [ ] Complete section 2 of [these exercises](http://ynonperek.com/javascript-exer.html)
+- [ ] Complete section 1 of [these exercises](http://ynonperek.com/javascript-exer.html)
 
 
 [el]:http://eloquentjavascript.net/
