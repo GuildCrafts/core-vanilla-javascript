@@ -9,7 +9,7 @@ The goal of this exercise is to have a fully-functioning Sudoku solver that you 
 
 The person who created the puzzle provides a partial solution so that some squares already have numbers.  Typically, there are enough initial numbers to guarantee a unique solution.
 
-![Unsolved](http://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-2..5.714.svg/25.px-Sudoku-by-L2G-2..5.714.svg.png) &nbsp; ![Solved Sudoku](http://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Sudoku-by-L2G-2..5.714_solution.svg/25.px-Sudoku-by-L2G-2..5.714_solution.svg.png)
+![Unsolved](unsolved.png) &nbsp; ![Solved Sudoku](solved.png)
 
 ## First Iteration
 
