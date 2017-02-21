@@ -11,7 +11,7 @@ Exercism provides a number of practice problems along with unit tests to ensure 
 
 ### Day 1 - Exercism
 
-
+- [ ] Solve `/exercism/hamming`
 - [ ] Solve `/exercism/diamond`
 - [ ] Solve `/exercism/bracket-push`
 - [ ] Solve `/exercism/ocr-numbers`
@@ -19,8 +19,18 @@ Exercism provides a number of practice problems along with unit tests to ensure 
 
 #### Stretch
 
-- [ ] Solve `/exercism/two-bucket`
-- [ ] Solve `/exercism/all-your-base`
+- [ ] Solve `/exercism/`
+- [ ] Solve `/exercism/`
+- [ ] Solve `/exercism/`
+- [ ] Solve `/exercism/`
+- [ ] Solve `/exercism/`
+- [ ] Solve `/exercism/`
+- [ ] Solve `/exercism/`
+
+- [ ] Solve `/exercism/phone-number`
+- [ ] Solve `/exercism/word-count`
+- [ ] Solve `/exercism/gigasecond`
+- [ ] Solve `/exercism/leap`
 
 ### Day 2 - Exercism
 
@@ -28,13 +38,18 @@ Exercism provides a number of practice problems along with unit tests to ensure 
 - [ ] Solve `/exercism/wordy`
 - [ ] Solve `/exercism/largest-series-product`
 - [ ] Solve `/exercism/robot-simulator`
+- [ ] Solve `/exercism/rna-transcription`
+- [ ] Solve `/exercism/bob`
+
 
 #### Stretch
 
+- [ ] Solve `/exercism/isogram`
 - [ ] Solve `/exercism/trinary`
 - [ ] Solve `/exercism/octal`
 - [ ] Solve `/exercism/hexadecimal`
-- [ ] Solve `/exercism/`
+- [ ] Solve `/exercism/two-bucket`
+- [ ] Solve `/exercism/all-your-base`
 
 ### Day 3 - Exercism
 
@@ -46,12 +61,11 @@ Exercism provides a number of practice problems along with unit tests to ensure 
 
 #### Stretch
 
-- [ ] Solve `/exercism/linked-list`
 - [ ] Solve `/exercism/luhn`
 - [ ] Solve `/exercism/pythagorean-triplet`
-- [ ] Solve `/exercism/binary-search` <--- Super stretch
-- [ ] Solve `/exercism/binary-search-tree` <--- Super stretch
-- [ ] Solve `/exercism/`
+- [ ] Solve `/exercism/beer-song`
+- [ ] Solve `/exercism/grade-school`
+
 
 
 # Day 4 - Sudoku
