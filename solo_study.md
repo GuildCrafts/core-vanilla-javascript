@@ -150,13 +150,19 @@ Let's do more Koans to get our day started
 
 Exercism provides a number of practice problems along with unit tests to ensure the accuracy of your answer to the test problems. We will be using exercism challenges for the rest of this goal.
 
-- Read the [Exercism setup](/exercism/setup) instructions
+- Read the [Exercism setup](/exercism/setup.md) instructions
+
+- [ ] Solve `/exercism/`
+- [ ] Solve `/exercism/`
+- [ ] Solve `/exercism/`
+- [ ] Solve `/exercism/`
+- [ ] Solve `/exercism/`
+
+#### Stretch
 
 
-
-
-### Stretch
-
+- [ ] Solve `/exercism/`
+- [ ] Solve `/exercism/`
 - [ ] Research about regular expressions and update `js-asessment/app/regex.js` to make this section's tests pass
 - [ ] Update `js-asessment/app/modules.js` to make this section's tests pass
 - [ ] Update `js-asessment/app/async.js` to make this section's tests pass
