@@ -19,13 +19,78 @@ For the first iteration, we're just going build a solver that fills in "logicall
 
 Your goal here is to learn how to model a relatively complex real-world system &mdash; a person solving Sudoku.  You'll learn the importance of well organized code, and some advanced problem solving skills.
 
-### Objectives
 
-### Modeling: Write down the nouns and verbs of the game
+### Let's get started
 
-A computer program that solves Sudoku is simulating the *player*, which means the better you can empathize with the player the more likely you'll understand how to write a Sudoku solver.  You'll be tempted to focus on the board first &mdash; is it some kind of array, a hash, something else? &mdash; but don't!  Understanding the person playing the game is key; the code to "power" the board is a detail.
+Your Sudoku solver should take a string like this as its input:
+
+```text
+.39...12....9.7...8..4.1..6.42...79...........91...54.5..1.9..3...8.5....14...87.
+```
+
+Each consecutive 9 digits represents a row of the Sudoku board, and a `.` represents an empty cell.  It'd work like this:
+
+```
+
+var sudoku = new Sudoku(".39...12....9.7...8..4.1..6.42...79...........91...54.5..1.9..3...8.5....14...87.");
+game.solve
+
+```
+
+This would print something like this:
+
+```
+439658127156927384827431956342516798785294631691783542578149263263875419914362875
+```
+
+Again, **note**, this first iteration might not solve every possible Sudoku board.  This means it would finish when it can no longer make a choice and "give up."  We'll create the fully-featured version in the next iteration.
+
+Don't worry about the particular format of the board when printed.  The key thing is getting the logic around solving/guessing correctly.
+
+
+#### What about performance?
+
+Do *not* worry about performance yet!  Optimizations can come later.  Clean, logical code is more important and will be easier to refactor.
+
+#### Get Started
+
+- Open a terminal window and navigate to the `Sudoku` folder
+- Install jasmine-node `npm install jasmine-node -g` This is the test framework we will use to run the tests
+- Run the tests by running `jasmine-node .`
+- Update `sudoku.js` to make the tests pass
+
+### Step 1
+
+- [ ] Detect bad boards through duplication (first two tests)
+- [ ] Detect unsolvable boards (next four tests)
+- [ ] Detect when a board is solved (next 1 test)
+
+
+### Step 2
+
+Now that we've detected bad boards, it's time to start thinking about solving really simple boards.
+
+### Modeling: Pseudocode for First Iteration
+
+Remember, for the first iteration, we're just going build a solver that fills in "logically necessary" squares and requires no guessing.  This might not solve every Sudoku board, although it often solves the easiest.  How can you tell when you've filled in all the "logically necessary" squares?
+
+- [ ] Write out pseudocode for this version, separately (each person on their own), and compare it to each other.  How does it differ?  Which approach seems more sound?  Are there some core operations or methods you need to support?
+
+For example, given a cell/square, you'll probably need at least three methods:
+
+1. Give me the other cells in that cell's row.
+2. Give me the other cells in that cell's column.
+3. Give me the other cells in that cell's box.
+
+- [ ] Solve boards that only have 'Naked Singles' which occur when a square has only one possible value remaining (next 2 tests)
+
+### Step 3
+
+Now that we've solved simple boards, let's start approaching boards with 'Hidden Singles'. These are boards where there are multiple possibilities per square
 
 ### Modeling: Strategies for Humans
+
+A computer program that solves Sudoku is simulating the *player*, which means the better you can empathize with the player the more likely you'll understand how to write a Sudoku solver.  You'll be tempted to focus on the board first &mdash; is it some kind of array, a hash, something else? &mdash; but don't!  Understanding the person playing the game is key; the code to "power" the board is a detail.
 
 Get out an actual Sudoku puzzle, printed on a piece of paper.  Play it with your pair.  Pay attention to yourself and to each other.
 
@@ -37,65 +102,19 @@ Get out an actual Sudoku puzzle, printed on a piece of paper.  Play it with your
 
 It's important to see that sometimes the strategies that work for us (humans) would be really hard to implement on a computer, and vice versa: strategies we avoid because we'd have to write too much, use too many sheets of paper, or remember too much are a cakewalk for a computer.
 
-### Modeling: Pseudocode for First Iteration
+- [ ] Solve board with hidden singles (next test)
+- [ ] Detect boards with multiple solutions (remaining tests)
 
-Remember, for the first iteration, we're just going build a solver that fills in "logically necessary" squares and requires no guessing.  This might not solve every Sudoku board, although it often solves the easiest.  How can you tell when you've filled in all the "logically necessary" squares?
+### Step 4
 
-Write out pseudocode for this version, separately, and compare it to each other.  How does it differ?  Which approach seems more sound?  Are there some core operations or methods you need to support?
+Time to start thinking about performance. Can your solver crunch through multiple puzzles quickly? What about puzzles where the solution space is too large, can it narrow down the possibilities by being smart about which squares to solve for first?
 
-For example, given a cell/square, you'll probably need at least three methods:
-
-1. Give me the other cells in that cell's row.
-2. Give me the other cells in that cell's column.
-3. Give me the other cells in that cell's box.
-
-### Now code it!
-
-Your Sudoku solver should take a string like this as its input:
-
-```text
-619.3..4.27..61..8....476214863.2.79....1458..31..9.6...572.8.632.1.6.5716.4...3.
-```
-
-Each consecutive 9 digits represents a row of the Sudoku board, and a `.` represents an empty cell.  It'd work like this:
-
-```ruby
-game = Sudoku.new('..3.2.6..9..3.5..1..18.64....81.29..7.......8..67.82....26.95..8..2.3..9..5.1.3..')
-
-game.solve!
-
-puts game.board
-```
-
-This would print something like this:
-
-```text
----------------------
-4 8 3 | 9 2 1 | 6 5 7
-9 6 7 | 3 4 5 | 8 2 1
-2 5 1 | 8 7 6 | 4 9 3
----------------------
-5 4 8 | 1 3 2 | 9 7 6
-7 2 9 | 5 6 4 | 1 3 8
-1 3 6 | 7 9 8 | 2 4 5
----------------------
-3 7 2 | 6 8 9 | 5 1 4
-8 1 4 | 2 5 3 | 7 6 9
-6 9 5 | 4 1 7 | 3 8 2
----------------------
-```
-
-
-
-Again, **note**, this first iteration might not solve every possible Sudoku board.  This means it would finish when it can no longer make a choice and "give up."  We'll create the fully-featured version in the next iteration.
-
-Don't worry about the particular format of the board when printed.  The key thing is getting the logic around solving/guessing correctly.
-
-#### What about performance?
-
-Do *not* worry about performance yet!  Optimizations can come later.  Clean, logical code is more important and will be easier to refactor.
-
-
+- [ ] Modify your code so that it reads an input file with multiple puzzles and writes a corresponding file with the solutions
+- [ ] Run your code with the following file as input, and solve all the puzzles in less than 10 minutes: `45.unsolved.txt`
+- [ ] Run your code with the following file as input, and solve all the puzzles in less than 10 minutes: `40.unsolved.txt`
+- [ ] Run your code with the following file as input, and solve all the puzzles in less than 10 minutes: `35.unsolved.txt`
+- [ ] Run your code with the following file as input, and solve all the puzzles in less than 10 minutes: `30.unsolved.txt`
+- [ ] Run your code with the following file as input, and solve all the puzzles in less than 10 minutes: `25.unsolved.txt`
 
 ```
 

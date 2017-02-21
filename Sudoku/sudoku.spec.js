@@ -2,41 +2,6 @@ var Sudoku = require('./sudoku');
 
 describe('Sudoku solver', function() {
 
-  it('recognizes a solved board as solved', function() {
-    var sudoku = new Sudoku("974236158638591742125487936316754289742918563589362417867125394253649871491873625");
-    expect(sudoku.isSolved()).toBe(true);
-  });
-
-  it('recognizes an unsolved board as solved', function() {
-    var sudoku = new Sudoku("...236158638591742125487936316754289742918563589362417867125394253649871491873...");
-    expect(sudoku.isSolved()).toBe(false);
-  });
-
-  it('solves a board with only 1 missing square', function() {
-    var sudoku = new Sudoku("2564891733746159829817234565932748617128.6549468591327635147298127958634849362715");
-    expect(sudoku.solve()).toBe("256489173374615982981723456593274861712836549468591327635147298127958634849362715");
-  });
-
-  it('solves a board with only Naked Singles', function() {
-    var sudoku = new Sudoku("3.542.81.4879.15.6.29.5637485.793.416132.8957.74.6528.2413.9.655.867.192.965124.8");
-    expect(sudoku.solve()).toBe("365427819487931526129856374852793641613248957974165283241389765538674192796512438");
-  });
-
-  it('solves a board with hidden singles', function() {
-    var sudoku = new Sudoku("..2.3...8.....8....31.2.....6..5.27..1.....5.2.4.6..31....8.6.5.......13..531.4..");
-    expect(sudoku.solve()).toBe("672435198549178362831629547368951274917243856254867931193784625486592713725316489");
-  });
-
-  it('Recognizes if there are too many solutions', function() {
-    var sudoku = new Sudoku(".................................................................................");
-    expect(sudoku.solve()).toBe("ERROR: Too many solutions");
-  });
-
-  it('Recognizes if there are insuficient givens', function() {
-    var sudoku = new Sudoku("...........5....9...4....1.2....3.5....7.....438...2......9.....1.4...6..........");
-    expect(sudoku.solve()).toBe("ERROR: Too many solutions");
-  });
-
   // This board is bad because the middle column (c5) has the value ‘1’ twice.
   it('Recognizes a bad board', function() {
     var sudoku = new Sudoku("..9.7...5..21..9..1...28....7...5..1..851.....5....3.......3..68........21.....87");
@@ -71,6 +36,41 @@ describe('Sudoku solver', function() {
   it('Detects an unsolvable row', function() {
     var sudoku = new Sudoku("9..1....4.14.3.8....3....9....7.8..18....3..........3..21....7...9.4.5..5...16..3");
     expect(sudoku.solve()).toBe("ERROR: Bad Board");
+  });
+
+  it('recognizes a solved board as solved', function() {
+    var sudoku = new Sudoku("974236158638591742125487936316754289742918563589362417867125394253649871491873625");
+    expect(sudoku.isSolved()).toBe(true);
+  });
+
+  it('recognizes an unsolved board as solved', function() {
+    var sudoku = new Sudoku("...236158638591742125487936316754289742918563589362417867125394253649871491873...");
+    expect(sudoku.isSolved()).toBe(false);
+  });
+
+  it('solves a board with only 1 missing square', function() {
+    var sudoku = new Sudoku("2564891733746159829817234565932748617128.6549468591327635147298127958634849362715");
+    expect(sudoku.solve()).toBe("256489173374615982981723456593274861712836549468591327635147298127958634849362715");
+  });
+
+  it('solves a board with only Naked Singles', function() {
+    var sudoku = new Sudoku("3.542.81.4879.15.6.29.5637485.793.416132.8957.74.6528.2413.9.655.867.192.965124.8");
+    expect(sudoku.solve()).toBe("365427819487931526129856374852793641613248957974165283241389765538674192796512438");
+  });
+
+  it('solves a board with hidden singles', function() {
+    var sudoku = new Sudoku("..2.3...8.....8....31.2.....6..5.27..1.....5.2.4.6..31....8.6.5.......13..531.4..");
+    expect(sudoku.solve()).toBe("672435198549178362831629547368951274917243856254867931193784625486592713725316489");
+  });
+
+  it('Recognizes if there are too many solutions', function() {
+    var sudoku = new Sudoku(".................................................................................");
+    expect(sudoku.solve()).toBe("ERROR: Too many solutions");
+  });
+
+  it('Recognizes if there are insuficient givens', function() {
+    var sudoku = new Sudoku("...........5....9...4....1.2....3.5....7.....438...2......9.....1.4...6..........");
+    expect(sudoku.solve()).toBe("ERROR: Too many solutions");
   });
 
   // This puzzle is not a valid Sudoku, because it has two possible solutions.
