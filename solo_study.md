@@ -164,7 +164,6 @@ Exercism provides a number of practice problems along with unit tests to ensure 
 
 #### Stretch
 
-
 - [ ] Solve `/exercism/simple-cipher`
 - [ ] Solve `/exercism/`
 - [ ] Research about regular expressions and update `js-asessment/app/regex.js` to make the section's tests pass

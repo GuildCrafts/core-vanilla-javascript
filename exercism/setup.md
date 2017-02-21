@@ -1,4 +1,4 @@
-#### Setup
+## Exercism Setup
 
 All of the Exercism exercises can be done from the comfort of your own command line. This will require some configuration and setup on your part.
 
