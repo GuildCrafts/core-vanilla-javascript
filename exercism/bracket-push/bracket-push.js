@@ -1,31 +1,35 @@
-var bracket = function() {}
-
-bracket = function( input ) {
-  let counterL = [],
-    counterR = [],
-    splitString = input.split('')
-
-    if (splitString[0] === '}' || splitString[0] === ')' || splitString[0] === ']') {
-      return false
-    }
-
-  for ( var index = 0; index < splitString.length; index++ ) {
-
-    if (splitString[index] === '{' || splitString[index] === '(' || splitString[index] === '[') {
-      counterL.push(splitString[index])
-
-    } else if (splitString[index] === '}' || splitString[index] === ')' || splitString[index] === ']') {
-      if (counterL.pop() === splitString[index]) {
-        return true
+function bracket(str){
+  let paren = ['(', ')']
+  let curly = ['{','}']
+  let square = ['[',']']
+  let closings = [')', '}', ']']
+  //split the string
+  let arr = str.split('')
+  let stack = []
+  //iterate through array
+  for(let i in arr){
+    if(closings.includes(arr[i])){
+      if(check(stack.pop()) !== check(arr[i])){
+        return false
       }
+    }else{
+      stack.push(arr[i])
     }
   }
-  //
-  // if ( counterR === counterL ) {
-  //   return true
-  // } else {
-  //   return false
-  // }
+
+  function check(element){
+    if(paren.includes(element)){
+      return 'paren'
+    }else if(curly.includes(element)){
+      return 'curly'
+    }else if(square.includes(element)){
+      return 'square'
+    }else{
+      return false
+    }
+  }
+  if(stack.length > 0) return false
+  return true
 }
 
-module.exports = bracket;
+module.exports = { bracket }
