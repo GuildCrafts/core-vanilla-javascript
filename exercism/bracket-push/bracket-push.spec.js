@@ -1,7 +1,7 @@
 var bracket = require('./bracket-push');
 
 describe('bracket push', function() {
-  it('checks for appropriate bracketing in a set of brackets', function() {
+  xit('checks for appropriate bracketing in a set of brackets', function() {
     expect(bracket('{}')).toEqual(true);
   });
 
@@ -29,7 +29,7 @@ describe('bracket push', function() {
     expect(bracket('{[)][]}')).toEqual(false);
   });
 
-  xit('checks bracket closure in a long string of brackets', function() {
+  it('checks bracket closure in a long string of brackets', function() {
     expect(bracket('{[]([()])}')).toEqual(true);
   });
 });
