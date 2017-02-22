@@ -24,7 +24,7 @@ It is found by comparing two DNA strands and counting how many of the
 nucleotides are different from their equivalent in the other string.
 
     GAGCCTACTAACGGGAT
-    CATCGTAATGACGGCCT
+    CGAGCCTACTAACGGGA
     ^ ^ ^  ^ ^    ^^
 
 The Hamming distance between these two DNA strands is 7.
@@ -59,4 +59,3 @@ The Calculating Point Mutations problem at Rosalind [http://rosalind.info/proble
 
 ## Submitting Incomplete Problems
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
-
