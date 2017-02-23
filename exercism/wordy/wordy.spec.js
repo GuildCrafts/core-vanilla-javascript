@@ -1,5 +1,5 @@
-var WordProblem   = require('./wordy').WordProblem;
-var ArgumentError = require('./wordy').ArgumentError;
+var WordProblem   = require('./wordy.src.js');
+var ArgumentError = require('./wordy.src.js');
 
 describe('Word Problem', function() {
 
@@ -8,32 +8,32 @@ describe('Word Problem', function() {
     expect(new WordProblem(question).answer()).toEqual(2);
   });
 
-  xit('add 2', function() {
+  it('add 2', function() {
     var question = 'What is 53 plus 2?';
     expect(new WordProblem(question).answer()).toEqual(55);
   });
 
-  xit('add negative numbers', function() {
+  it('add negative numbers', function() {
     var question = 'What is -1 plus -10?';
     expect(new WordProblem(question).answer()).toEqual(-11);
   });
 
-  xit('add more digits', function() {
+  it('add more digits', function() {
     var question = 'What is 123 plus 45678?';
     expect(new WordProblem(question).answer()).toEqual(45801);
   });
 
-  xit('subtract', function() {
+  it('subtract', function() {
     var question = 'What is 4 minus -12?';
     expect(new WordProblem(question).answer()).toEqual(16);
   });
 
-  xit('multiply', function() {
+  it('multiply', function() {
     var question = 'What is -3 multiplied by 25?';
     expect(new WordProblem(question).answer()).toEqual(-75);
   });
 
-  xit('divide', function() {
+  it('divide', function() {
     var question = 'What is 33 divided by -3?';
     expect(new WordProblem(question).answer()).toEqual(-11);
   });
