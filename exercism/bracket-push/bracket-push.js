@@ -1,4 +1,4 @@
-function bracket(str){
+const bracket = (str) => {
   let paren = ['(', ')']
   let curly = ['{','}']
   let square = ['[',']']
@@ -32,4 +32,4 @@ function bracket(str){
   return true
 }
 
-module.exports = { bracket }
+module.exports = bracket;
