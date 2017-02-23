@@ -8,12 +8,14 @@ If you're working on a team project, checkout the [Team Practice Guide](team_pra
 
 # Core Vanilla Javascript [Solo Study] -- Learning Contract
 
+
 ---
 authors:
   - @shereefb
 issueNumber: 174
 teamSize: 1
 ---
+
 
 ## Challenge Rating
 
