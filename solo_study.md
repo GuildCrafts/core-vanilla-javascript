@@ -24,7 +24,7 @@ Your objectives for the day is to achieve:
 - [x] Complete [Flow Control and Problem Set 2][udacity]
 - [x] Complete [Quiz: Relationships][udacity]
 - [x] Complete [Quiz: Astronaut Arrays][udacity]
-- [ ] Complete [Quiz: Pagespeed Insights][udacity]
+- [x] Complete [Quiz: Pagespeed Insights][udacity]
 
 
 ### Stretch
