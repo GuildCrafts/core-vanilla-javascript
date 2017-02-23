@@ -53,6 +53,7 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
 - [ ] Complete the last 5 tasks of [Objects Basics Tutorial](https://learn.javascript.info/object)
   - [x] Hello Object https://gist.github.com/benjaminpettus/4ac9c3b26da1ddcb9ea56b162325198e
   - [x] Check for completeness http://plnkr.co/edit/DX1Zr9z4DuKp3RhAZeWH?p=preview
+  - [x] Constant objects? https://jsbin.com/cebula/2/edit?html,js,console
     
 - [ ] Complete the last 5 tasks of [Arrays Tutorial](https://learn.javascript.info/array)
  - [ ] Link to your solution here
