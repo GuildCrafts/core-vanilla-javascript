@@ -23,7 +23,7 @@ Your objectives for the day is to achieve:
 - [x] Complete [Data Types and Problem Set 1][udacity]
 - [x] Complete [Flow Control and Problem Set 2][udacity]
 - [x] Complete [Quiz: Relationships][udacity]
-- [ ] Complete [Quiz: Astronaut Arrays][udacity]
+- [x] Complete [Quiz: Astronaut Arrays][udacity]
 - [ ] Complete [Quiz: Pagespeed Insights][udacity]
 
 
