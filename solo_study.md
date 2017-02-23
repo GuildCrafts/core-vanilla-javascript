@@ -58,11 +58,11 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
   - [x] Multiply numeric properties by 2 http://plnkr.co/edit/2koECam2BI5PQrafGNJE?p=info
     
 - [ ] Complete the last 5 tasks of [Arrays Tutorial](https://learn.javascript.info/array)
- - [ ] Is array Copied
- - [ ] Array operations
- - [ ] Calling in an array context
- - [ ] Sum input numbers
- - [ ] A maximal Subarray
+  - [x] Is array Copied https://jsbin.com/xopobeh/2/edit?html,js,output
+  - [ ] Array operations
+  - [ ] Calling in an array context
+  - [ ] Sum input numbers
+  - [ ] A maximal Subarray
  
 - [ ] Complete the last 5 tasks of [Array Methods](https://learn.javascript.info/array)
  - [ ] Link to your solution here
