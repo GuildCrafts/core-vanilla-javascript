@@ -72,7 +72,7 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
 - Run `npm install` and `npm start`, then goto `http://127.0.0.1:4444/` in your browser.
 - You should see a bunch of failing tests
 - [x] Update `js-asessment/app/flowControl.js` to make the section's tests pass
-- [ ] Update `js-asessment/app/logicalOperators.js` to make the section's tests pass
+- [x] Update `js-asessment/app/logicalOperators.js` to make the section's tests pass
 - [ ] Update `js-asessment/app/logicalNumbers.js` to make the section's tests pass
 
 
@@ -95,9 +95,9 @@ Let's test our understanding by working on some Koans.
 
 - In your forked repo, find the `javascript-koans` sub directory.
 - Find `KoansRunner.html` and open it in a browser
-- [ ] Edit AboutObjects.js to make all tests pass
-- [ ] Edit AboutFunctions.js to make all tests pass
-- [ ] Edit AboutArrays.js to make all tests pass
+- [x] Edit AboutObjects.js to make all tests pass
+- [x] Edit AboutFunctions.js to make all tests pass
+- [x] Edit AboutArrays.js to make all tests pass
 - [ ] Edit AboutApplyingWhatWeHaveLearnt.js to make all tests pass
 - [ ] Write all 10 functions described in [/challenges/10exercises.js](/challenges/10exercises.js)
 
