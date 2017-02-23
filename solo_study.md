@@ -50,7 +50,7 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
 
 ### Plan
 
-- [ ] Complete the last 5 tasks of [Objects Basics Tutorial](https://learn.javascript.info/object)
+- [x] Complete the last 5 tasks of [Objects Basics Tutorial](https://learn.javascript.info/object)
   - [x] Hello Object https://gist.github.com/benjaminpettus/4ac9c3b26da1ddcb9ea56b162325198e
   - [x] Check for completeness http://plnkr.co/edit/DX1Zr9z4DuKp3RhAZeWH?p=preview
   - [x] Constant objects? https://jsbin.com/cebula/2/edit?html,js,console
@@ -58,9 +58,15 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
   - [x] Multiply numeric properties by 2 http://plnkr.co/edit/2koECam2BI5PQrafGNJE?p=info
     
 - [ ] Complete the last 5 tasks of [Arrays Tutorial](https://learn.javascript.info/array)
- - [ ] Link to your solution here
+ - [ ] Is array Copied
+ - [ ] Array operations
+ - [ ] Calling in an array context
+ - [ ] Sum input numbers
+ - [ ] A maximal Subarray
+ 
 - [ ] Complete the last 5 tasks of [Array Methods](https://learn.javascript.info/array)
  - [ ] Link to your solution here
+ 
 - [ ] Complete the [Learn JS Basics tutorial](http://www.learn-js.org/en/Welcome)
 - [ ] Complete the [Learn JS Objects tutorial](http://www.learn-js.org/en/Object_Oriented_JavaScript)
 
