@@ -55,7 +55,7 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
   - [x] Check for completeness http://plnkr.co/edit/DX1Zr9z4DuKp3RhAZeWH?p=preview
   - [x] Constant objects? https://jsbin.com/cebula/2/edit?html,js,console
   - [x] Sum object properties https://jsbin.com/jemimef/edit?js,console
-  - [x] Multiply numeric properties by 2
+  - [x] Multiply numeric properties by 2 http://plnkr.co/edit/2koECam2BI5PQrafGNJE?p=info
     
 - [ ] Complete the last 5 tasks of [Arrays Tutorial](https://learn.javascript.info/array)
  - [ ] Link to your solution here
