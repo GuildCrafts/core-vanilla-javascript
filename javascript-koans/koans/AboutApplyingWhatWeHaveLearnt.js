@@ -82,7 +82,7 @@ describe("About Applying What We Have Learnt", function() {
         }
     }
 
-    expect(ingredientCount['mushrooms']).toBe(FILL_ME_IN);
+    expect(ingredientCount['mushrooms']).toBe(2);
   });
 
   it("should count the ingredient occurrence (functional)", function () {
@@ -90,8 +90,22 @@ describe("About Applying What We Have Learnt", function() {
 
     /* chain() together map(), flatten() and reduce() */
 
-    expect(ingredientCount['mushrooms']).toBe(FILL_ME_IN);
+    products.forEach(function(obj) {
+      obj.ingredients.forEach(function(item) {
+        if (ingredientCount.hasOwnProperty(item)) {
+          ingredientCount[item] += 1;
+        } else {
+          ingredientCount[item] = 1;
+        }
+      });
+    });
+
+    expect(ingredientCount['mushrooms']).toBe(2);
   });
+
+  // var allbooks = friends.reduce(function(prev, curr) {
+  //     return [...prev, ...curr.books];
+  //   }
 
   /*********************************************************************************/
   /* UNCOMMENT FOR EXTRA CREDIT */
