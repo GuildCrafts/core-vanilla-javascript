@@ -64,12 +64,12 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
   - [x] Sum input numbers https://repl.it/FwIz
   - [ ] A maximal Subarray
  
-- [ ] Complete the last 5 tasks of [Array Methods](https://learn.javascript.info/array)
+- [x] Complete the last 5 tasks of [Array Methods](https://learn.javascript.info/array)
   - [x] Map to names https://repl.it/FxDL
   - [x] Map to objects https://repl.it/FxHW
   - [x] Sort objects https://repl.it/FxIp
-  - [ ] Get average age
-  - [ ] Filter unique array members
+  - [x] Get average age https://repl.it/FxIu/1
+  - [x] Filter unique array members
  
 - [ ] Complete the [Learn JS Basics tutorial](http://www.learn-js.org/en/Welcome)
 - [ ] Complete the [Learn JS Objects tutorial](http://www.learn-js.org/en/Object_Oriented_JavaScript)
