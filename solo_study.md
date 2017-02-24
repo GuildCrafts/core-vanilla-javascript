@@ -65,7 +65,11 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
   - [ ] A maximal Subarray
  
 - [ ] Complete the last 5 tasks of [Array Methods](https://learn.javascript.info/array)
- - [ ] Link to your solution here
+  - [x] Map to names https://repl.it/FxDL
+  - [ ] Map to objects
+  - [ ] Sort objects
+  - [ ] Get average age
+  - [ ] Filter unique array members
  
 - [ ] Complete the [Learn JS Basics tutorial](http://www.learn-js.org/en/Welcome)
 - [ ] Complete the [Learn JS Objects tutorial](http://www.learn-js.org/en/Object_Oriented_JavaScript)
