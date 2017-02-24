@@ -1,5 +1,5 @@
-var WordProblem   = require('./wordy.src.js');
-var ArgumentError = require('./wordy.src.js');
+var WordProblem   = require('./wordy.js').WordProblem;
+var ArgumentError = require('./wordy.js').ArgumentError;
 
 describe('Word Problem', function() {
 
@@ -38,53 +38,51 @@ describe('Word Problem', function() {
     expect(new WordProblem(question).answer()).toEqual(-11);
   });
 
-  xit('add twice', function() {
+  it('add twice', function() {
     var question = 'What is 1 plus 1 plus 1?';
     expect(new WordProblem(question).answer()).toEqual(3);
   });
 
-  xit('add then subtract', function() {
+it('add then subtract', function() {
     var question = 'What is 1 plus 5 minus -2?';
     expect(new WordProblem(question).answer()).toEqual(8);
   });
 
-  xit('subtract twice', function() {
+  it('subtract twice', function() {
     var question = 'What is 20 minus 4 minus 13?';
     expect(new WordProblem(question).answer()).toEqual(3);
   });
 
-  xit('subtract then add', function() {
+  it('subtract then add', function() {
     var question = 'What is 17 minus 6 plus 3?';
     expect(new WordProblem(question).answer()).toEqual(14);
   });
 
-  xit('multiply twice', function() {
+  it('multiply twice', function() {
     var question = 'What is 2 multiplied by -2 multiplied by 3?';
     expect(new WordProblem(question).answer()).toEqual(-12);
   });
 
-  xit('add then multiply', function() {
+  it('add then multiply', function() {
     var question = 'What is -3 plus 7 multiplied by -2?';
     expect(new WordProblem(question).answer()).toEqual(-8);
   });
 
-  xit('divide twice', function() {
+  it('divide twice', function() {
     var question = 'What is -12 divided by 2 divided by -3?';
     expect(new WordProblem(question).answer()).toEqual(2);
   });
 
-  xit('too advanced', function() {
+  it('too advanced', function() {
     var question = 'What is 53 cubed?';
     var problem  = new WordProblem(question);
-
-    expect(problem.answer.bind(problem)).toThrow(new ArgumentError());
+    expect(problem.answer.bind(problem)).toThrow(new Error());
   });
 
-  xit('irrelevant', function() {
+  it('irrelevant', function() {
     var question = 'Who is the president of the United States?';
     var problem  = new WordProblem(question);
-
-    expect(problem.answer.bind(problem)).toThrow(new ArgumentError());
+    expect(problem.answer.bind(problem)).toThrow(new Error());
   });
 
 });
