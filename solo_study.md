@@ -54,7 +54,7 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
   - [ ] Link to your solution here (jsbin, gist, or a js file in this repo)
 - [ ] Complete the last 5 tasks of [Arrays Tutorial](https://learn.javascript.info/array)
  - [ ] Link to your solution here
-- [ ] Complete the last 5 tasks of [Array Methods](https://learn.javascript.info/array)
+- [ ] Complete the last 5 tasks of [Array Methods](https://learn.javascript.info/array-methods)
  - [ ] Link to your solution here
 - [ ] Complete the [Learn JS Basics tutorial](http://www.learn-js.org/en/Welcome)
 - [ ] Complete the [Learn JS Objects tutorial](http://www.learn-js.org/en/Object_Oriented_JavaScript)
