@@ -59,7 +59,7 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
     
 - [ ] Complete the last 5 tasks of [Arrays Tutorial](https://learn.javascript.info/array)
   - [x] Is array Copied https://jsbin.com/xopobeh/2/edit?html,js,output
-  - [ ] Array operations
+  - [x] Array operations https://jsbin.com/tuluhej/1/edit?html,js,output
   - [ ] Calling in an array context
   - [ ] Sum input numbers
   - [ ] A maximal Subarray
