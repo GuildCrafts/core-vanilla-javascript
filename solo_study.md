@@ -67,7 +67,7 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
 - [ ] Complete the last 5 tasks of [Array Methods](https://learn.javascript.info/array)
   - [x] Map to names https://repl.it/FxDL
   - [x] Map to objects https://repl.it/FxHW
-  - [ ] Sort objects
+  - [x] Sort objects https://repl.it/FxIp
   - [ ] Get average age
   - [ ] Filter unique array members
  
