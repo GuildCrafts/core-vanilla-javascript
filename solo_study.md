@@ -50,23 +50,38 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
 
 ### Plan
 
-- [ ] Complete the last 5 tasks of [Objects Basics Tutorial](https://learn.javascript.info/object)
-  - [ ] Link to your solution here (jsbin, gist, or a js file in this repo)
+- [x] Complete the last 5 tasks of [Objects Basics Tutorial](https://learn.javascript.info/object)
+  - [x] Hello Object https://gist.github.com/benjaminpettus/4ac9c3b26da1ddcb9ea56b162325198e
+  - [x] Check for completeness http://plnkr.co/edit/DX1Zr9z4DuKp3RhAZeWH?p=preview
+  - [x] Constant objects? https://jsbin.com/cebula/2/edit?html,js,console
+  - [x] Sum object properties https://jsbin.com/jemimef/edit?js,console
+  - [x] Multiply numeric properties by 2 http://plnkr.co/edit/2koECam2BI5PQrafGNJE?p=info
+    
 - [ ] Complete the last 5 tasks of [Arrays Tutorial](https://learn.javascript.info/array)
- - [ ] Link to your solution here
-- [ ] Complete the last 5 tasks of [Array Methods](https://learn.javascript.info/array)
- - [ ] Link to your solution here
-- [ ] Complete the [Learn JS Basics tutorial](http://www.learn-js.org/en/Welcome)
-- [ ] Complete the [Learn JS Objects tutorial](http://www.learn-js.org/en/Object_Oriented_JavaScript)
+  - [x] Is array Copied https://jsbin.com/xopobeh/2/edit?html,js,output
+  - [x] Array operations https://jsbin.com/tuluhej/1/edit?html,js,output
+  - [x] Calling in an array context https://jsbin.com/bekinih/1/edit?js,output
+  - [x] Sum input numbers https://repl.it/FwIz
+  - [ ] A maximal Subarray
+ 
+- [x] Complete the last 5 tasks of [Array Methods](https://learn.javascript.info/array)
+  - [x] Map to names https://repl.it/FxDL
+  - [x] Map to objects https://repl.it/FxHW
+  - [x] Sort objects https://repl.it/FxIp
+  - [x] Get average age https://repl.it/FxIu/1
+  - [x] Filter unique array members
+ 
+- [x] Complete the [Learn JS Basics tutorial](http://www.learn-js.org/en/Welcome)
+- [x] Complete the [Learn JS Objects tutorial](http://www.learn-js.org/en/Object_Oriented_JavaScript)
 
 *These next 3 steps are part of [Front End Masters JS Course](https://frontendmasters.com/courses/js-fundamentals-to-functional/). You might need to watch the videos and part of the course to make it through. Reach out to staff for an invite code if you don't already have an account.*
 
-- [ ] Complete the [Array Exercises](https://github.com/bgando/array-exercises)
-  - [ ] Link to your solution here
-- [ ] Complete the [Function Exercises](https://github.com/bgando/function-exercises)
-  - [ ] Link to your solution here
-- [ ] Complete the [Object Exercises](https://github.com/bgando/object-exercises)
-  - [ ] Link to your solution here
+- [x] Complete the [Array Exercises](https://github.com/bgando/array-exercises)
+  - [x] Array Exercises https://repl.it/FxVP
+- [x] Complete the [Function Exercises](https://github.com/bgando/function-exercises)
+  - [x] Function Exercises https://repl.it/FxYG/2
+- [x] Complete the [Object Exercises](https://github.com/bgando/object-exercises)
+  - [x] Object Exercises https://repl.it/Fx4Y/1
 
 - Browse in the terminal to the `js-assessment` folder in this repo.
 - Run `npm install` and `npm start`, then goto `http://127.0.0.1:4444/` in your browser.
