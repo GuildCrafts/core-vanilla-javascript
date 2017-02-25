@@ -80,8 +80,8 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
   - [x] Array Exercises https://repl.it/FxVP
 - [x] Complete the [Function Exercises](https://github.com/bgando/function-exercises)
   - [x] Function Exercises https://repl.it/FxYG/2
-- [ ] Complete the [Object Exercises](https://github.com/bgando/object-exercises)
-  - [ ] Link to your solution here
+- [x] Complete the [Object Exercises](https://github.com/bgando/object-exercises)
+  - [x] Object Exercises https://repl.it/Fx4Y/1
 
 - Browse in the terminal to the `js-assessment` folder in this repo.
 - Run `npm install` and `npm start`, then goto `http://127.0.0.1:4444/` in your browser.
