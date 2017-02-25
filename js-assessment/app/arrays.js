@@ -68,14 +68,29 @@ exports.arraysAnswers = {
 
   insert: function(arr, item, index) {
 
+    arr.splice( index, 0, item )
+    return arr
+
   },
 
   count: function(arr, item) {
+    let count = 0
+    for ( let idx of arr ) {
+
+      if( item === arr[idx] ){
+        count++
+      }
+
+    }
+    return count
 
   },
 
   duplicates: function(arr) {
+    console.log( arr )
+    for ( let idx of arr ) {
 
+    }
   },
 
   square: function(arr) {
