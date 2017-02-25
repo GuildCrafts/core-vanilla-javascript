@@ -78,8 +78,8 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
 
 - [x] Complete the [Array Exercises](https://github.com/bgando/array-exercises)
   - [x] Array Exercises https://repl.it/FxVP
-- [ ] Complete the [Function Exercises](https://github.com/bgando/function-exercises)
-  - [ ] Link to your solution here
+- [x] Complete the [Function Exercises](https://github.com/bgando/function-exercises)
+  - [x] Function Exercises https://repl.it/FxYG/2
 - [ ] Complete the [Object Exercises](https://github.com/bgando/object-exercises)
   - [ ] Link to your solution here
 
