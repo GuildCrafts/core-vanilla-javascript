@@ -3,12 +3,42 @@
 // 1. Create a function that takes an array of positive and negative numbers. Return an array where the first element is the count of positive numbers and the second element is the sum of negative numbers.
 // https://edabit.com/challenge/xXJLZry3vYd4erPct
 
+function countPosSumNeg(nums) {
+  if (nums === [] || nums === null) {
+    return []
+  }
+  let positiveCount = nums.reduce((acc, next) => {
+    if (next > 0) {
+      return acc += 1
+    } else {
+      return acc
+    }
+  }, 0)
+
+  let negativeSum = nums.reduce((acc, next) => {
+    if (next < 0) {
+      return acc + next
+    } else {
+      return acc
+    }
+  }, 0)
+
+  if (negativeSum + positiveCount === 0) {
+    return []
+  }
+  return [positiveCount, negativeSum]
+}
+
 
 // 2. Create a function that accepts an array and returns the last item in the array. The array can contain any of JavaScript's five primitive data types.
 // https://edabit.com/challenge/7JBTN4TbaxJQMdX9W
+function getLastItem(arr) {
+  return arr[arr.length-1]
+}
 
 // 3. Create a function that takes two arrays and combines them by alternatingly taking elements from each array in turn.
 // https://edabit.com/challenge/kaNYPQQWHSX4zGNhj
+
 
 
 // 4. Create a function that takes an array of numbers and remove the smallest value. If there are multiple elements with the same value, remove the one with a lower index. If you get an empty array, return an empty array.
