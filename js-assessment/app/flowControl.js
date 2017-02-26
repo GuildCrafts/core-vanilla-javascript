@@ -2,7 +2,7 @@ exports = typeof window === 'undefined' ? global : window;
 
 exports.flowControlAnswers = {
   fizzBuzz: function(num) {
-    
+
     // write a function that receives a number as its argument;
     // if the number is divisible by 3 and 5, the function should return 'fizzbuzz';
     if ( num % 5 === 0 && num % 3 === 0 ) { return 'fizzbuzz'}
