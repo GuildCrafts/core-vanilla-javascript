@@ -32,7 +32,6 @@ the letters A through Z (either lower or uppercase) and whitespace.
 Go through the setup instructions for JavaScript to
 install the necessary dependencies:
 
-http://exercism.io/languages/javascript
 
 ## Making the Test Suite Pass
 
@@ -51,4 +50,3 @@ Wikipedia [https://en.wikipedia.org/wiki/Run-length_encoding](https://en.wikiped
 
 ## Submitting Incomplete Problems
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
-
