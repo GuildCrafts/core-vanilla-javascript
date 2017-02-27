@@ -18,13 +18,13 @@ Your objectives for the day is to achieve:
 
 ### Plan
 
-- [ ] Signup for [Udacity Javascript Basics][udacity]
-- [ ] Complete [Getting up and running & Problem Set 0][udacity]
-- [ ] Complete [Data Types and Problem Set 1][udacity]
-- [ ] Complete [Flow Control and Problem Set 2][udacity]
-- [ ] Complete [Quiz: Relationships][udacity]
-- [ ] Complete [Quiz: Astronaut Arrays][udacity]
-- [ ] Complete [Quiz: Pagespeed Insights][udacity]
+- [X] Signup for [Udacity Javascript Basics][udacity]
+- [X] Complete [Getting up and running & Problem Set 0][udacity]
+- [X] Complete [Data Types and Problem Set 1][udacity]
+- [X] Complete [Flow Control and Problem Set 2][udacity]
+- [X] Complete [Quiz: Relationships][udacity]
+- [X] Complete [Quiz: Astronaut Arrays][udacity]
+- [X] Complete [Quiz: Pagespeed Insights][udacity]
 
 
 ### Stretch
@@ -50,29 +50,29 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
 
 ### Plan
 
-- [ ] Complete the last 5 tasks of [Objects Basics Tutorial](https://learn.javascript.info/object)
-  - [ ] Link to your solution here (jsbin, gist, or a js file in this repo)
-- [ ] Complete the last 5 tasks of [Arrays Tutorial](https://learn.javascript.info/array)
- - [ ] Link to your solution here
-- [ ] Complete the last 5 tasks of [Array Methods](https://learn.javascript.info/array)
- - [ ] Link to your solution here
-- [ ] Complete the [Learn JS Basics tutorial](http://www.learn-js.org/en/Welcome)
-- [ ] Complete the [Learn JS Objects tutorial](http://www.learn-js.org/en/Object_Oriented_JavaScript)
+- [X] Complete the last 5 tasks of [Objects Basics Tutorial](https://learn.javascript.info/object)
+  - [X] Link to your solution here (jsbin, gist, or a js file in this repo) (can be found in "javascript-exercises/ObjectsBasics.js")
+- [X] Complete the last 5 tasks of [Arrays Tutorial](https://learn.javascript.info/array)
+ - [X] Link to your solution here: (can be found in "javascript-exercises/ArrayBasics.js")
+- [X] Complete the last 5 tasks of [Array Methods](https://learn.javascript.info/array-methods)
+ - [X] Link to your solution here (can be found in "javascript-exercises/ArrayMethodBasics.js")
+- [X] Complete the [Learn JS Basics tutorial](http://www.learn-js.org/en/Welcome)
+- [X] Complete the [Learn JS Objects tutorial](http://www.learn-js.org/en/Object_Oriented_JavaScript)
 
 *These next 3 steps are part of [Front End Masters JS Course](https://frontendmasters.com/courses/js-fundamentals-to-functional/). You might need to watch the videos and part of the course to make it through. Reach out to staff for an invite code if you don't already have an account.*
 
-- [ ] Complete the [Array Exercises](https://github.com/bgando/array-exercises)
-  - [ ] Link to your solution here
-- [ ] Complete the [Function Exercises](https://github.com/bgando/function-exercises)
-  - [ ] Link to your solution here
-- [ ] Complete the [Object Exercises](https://github.com/bgando/object-exercises)
-  - [ ] Link to your solution here
+- [X] Complete the [Array Exercises](https://github.com/bgando/array-exercises)
+  - [X] Link to your solution here (can be found in "javascript-exercises/bgando-array.js")
+- [X] Complete the [Function Exercises](https://github.com/bgando/function-exercises)
+  - [X] Link to your solution here (can be found in "javascript-exercises/bgando-function.js")
+- [X] Complete the [Object Exercises](https://github.com/bgando/object-exercises)
+  - [X] Link to your solution here (can be found in "javascript-exercises/bgando-object.js")
 
 - Browse in the terminal to the `js-assessment` folder in this repo.
 - Run `npm install` and `npm start`, then goto `http://127.0.0.1:4444/` in your browser.
 - You should see a bunch of failing tests
-- [ ] Update `js-asessment/app/flowControl.js` to make the section's tests pass
-- [ ] Update `js-asessment/app/logicalOperators.js` to make the section's tests pass
+- [X] Update `js-asessment/app/flowControl.js` to make the section's tests pass
+- [X] Update `js-asessment/app/logicalOperators.js` to make the section's tests pass
 - [ ] Update `js-asessment/app/logicalNumbers.js` to make the section's tests pass
 
 
