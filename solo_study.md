@@ -18,10 +18,10 @@ Your objectives for the day is to achieve:
 
 ### Plan
 
-- [ ] Signup for [Udacity Javascript Basics][udacity]
-- [ ] Complete [Getting up and running & Problem Set 0][udacity]
-- [ ] Complete [Data Types and Problem Set 1][udacity]
-- [ ] Complete [Flow Control and Problem Set 2][udacity]
+- [x] Signup for [Udacity Javascript Basics][udacity]
+- [x] Complete [Getting up and running & Problem Set 0][udacity]
+- [x] Complete [Data Types and Problem Set 1][udacity]
+- [x] Complete [Flow Control and Problem Set 2][udacity]
 - [ ] Complete [Quiz: Relationships][udacity]
 - [ ] Complete [Quiz: Astronaut Arrays][udacity]
 - [ ] Complete [Quiz: Pagespeed Insights][udacity]
@@ -29,12 +29,12 @@ Your objectives for the day is to achieve:
 
 ### Stretch
 
-- [ ] Skim [You don't know JS](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/ch1.md#practice) and complete the final challenge
+- [x] Skim [You don't know JS](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/ch1.md#practice) and complete the final challenge
 - [ ] Complete [Final Project][udacity]
 - [ ] Watch and complete the [Front End Masters Javascript Introduction](https://frontendmasters.com/courses/javascript-basics/) (2 hours)
 - [ ] Watch the bootcamp videos in the [Core Vanilla Javascript](https://shereef.wistia.com/projects/fwy60ilf20) section
 - [ ] Read Chapters 1,2,3 of [Eloquent Javascript][el]
-- [ ] Complete [CodeCademy's Learn Javasript](https://www.codecademy.com/learn/javascript)
+- [x] Complete [CodeCademy's Learn Javasript](https://www.codecademy.com/learn/javascript)
 
 
 ## Day 2: Arrays, Objects, and lots of Practice
@@ -50,29 +50,29 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
 
 ### Plan
 
-- [ ] Complete the last 5 tasks of [Objects Basics Tutorial](https://learn.javascript.info/object)
-  - [ ] Link to your solution here (jsbin, gist, or a js file in this repo)
-- [ ] Complete the last 5 tasks of [Arrays Tutorial](https://learn.javascript.info/array)
- - [ ] Link to your solution here
-- [ ] Complete the last 5 tasks of [Array Methods](https://learn.javascript.info/array)
- - [ ] Link to your solution here
-- [ ] Complete the [Learn JS Basics tutorial](http://www.learn-js.org/en/Welcome)
-- [ ] Complete the [Learn JS Objects tutorial](http://www.learn-js.org/en/Object_Oriented_JavaScript)
+- [x] Complete the last 5 tasks of [Objects Basics Tutorial](https://learn.javascript.info/object)
+- [x] Link to your solution here (jsbin, gist, or a js file in this repo)
+- [x] Complete the last 5 tasks of [Arrays Tutorial](https://learn.javascript.info/array)
+- [x] Link to your solution here: In Day 2 Directory in tasks.js
+- [x] Complete the last 5 tasks of [Array Methods](https://learn.javascript.info/array)
+- [x] Link to your solution here: In Day 2 Directory in tasks.js
+- [x] Complete the [Learn JS Basics tutorial](http://www.learn-js.org/en/Welcome)
+- [x] Complete the [Learn JS Objects tutorial](http://www.learn-js.org/en/Object_Oriented_JavaScript)
 
 *These next 3 steps are part of [Front End Masters JS Course](https://frontendmasters.com/courses/js-fundamentals-to-functional/). You might need to watch the videos and part of the course to make it through. Reach out to staff for an invite code if you don't already have an account.*
 
-- [ ] Complete the [Array Exercises](https://github.com/bgando/array-exercises)
-  - [ ] Link to your solution here
-- [ ] Complete the [Function Exercises](https://github.com/bgando/function-exercises)
-  - [ ] Link to your solution here
-- [ ] Complete the [Object Exercises](https://github.com/bgando/object-exercises)
-  - [ ] Link to your solution here
+- [x] Complete the [Array Exercises](https://github.com/bgando/array-exercises)
+- [x] Link to your solution here: In Day 2 Directory in exercises1.js
+- [x] Complete the [Function Exercises](https://github.com/bgando/function-exercises)
+- [x] Link to your solution here: In Day 2 Directory in exercises2.js
+- [x] Complete the [Object Exercises](https://github.com/bgando/object-exercises)
+- [x] Link to your solution here: In Day 2 Directory in exercises3.js
 
 - Browse in the terminal to the `js-assessment` folder in this repo.
 - Run `npm install` and `npm start`, then goto `http://127.0.0.1:4444/` in your browser.
 - You should see a bunch of failing tests
-- [ ] Update `js-asessment/app/flowControl.js` to make the section's tests pass
-- [ ] Update `js-asessment/app/logicalOperators.js` to make the section's tests pass
+- [x] Update `js-asessment/app/flowControl.js` to make the section's tests pass
+- [x] Update `js-asessment/app/logicalOperators.js` to make the section's tests pass
 - [ ] Update `js-asessment/app/logicalNumbers.js` to make the section's tests pass
 
 
@@ -83,7 +83,7 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
 - [ ] Watch the first 11 [Fundamentals Videos](https://channel9.msdn.com/Series/JavaScript-Fundamentals-Development-for-Absolute-Beginners)
 - [ ] Read pages 173 to 184 in [Professional JS for Web Developers][projs]
 - [ ] Signup for a free Team Treehouse trial and complete their [Object Oriented Javascript Course] (https://teamtreehouse.com/library/objectoriented-javascript)
-- [ ] Skim this [cheat sheet][cheat]
+- [x] Skim this [cheat sheet][cheat]
 
 ## Day 3: Koans and Drills
 
@@ -95,16 +95,16 @@ Let's test our understanding by working on some Koans.
 
 - In your forked repo, find the `javascript-koans` sub directory.
 - Find `KoansRunner.html` and open it in a browser
-- [ ] Edit AboutObjects.js to make all tests pass
-- [ ] Edit AboutFunctions.js to make all tests pass
-- [ ] Edit AboutArrays.js to make all tests pass
-- [ ] Edit AboutApplyingWhatWeHaveLearnt.js to make all tests pass
-- [ ] Write all 10 functions described in [/challenges/10exercises.js](/challenges/10exercises.js)
+- [x] Edit AboutObjects.js to make all tests pass
+- [x] Edit AboutFunctions.js to make all tests pass
+- [x] Edit AboutArrays.js to make all tests pass
+- [x] Edit AboutApplyingWhatWeHaveLearnt.js to make all tests pass
+- [x] Write all 10 functions described in [/challenges/10exercises.js](/challenges/10exercises.js)
 
 Ok, on for some more drills.
 
-- [ ] Sign up for an [edabit](http://edabit.com) account.
-- [ ] Solve all 10 array challenges linked in [/challenges/edabit-arrays.js](/challenges/edabit-arrays.js) and commit your solutions to the file
+- [x] Sign up for an [edabit](http://edabit.com) account.
+- [x] Solve all 10 array challenges linked in [/challenges/edabit-arrays.js](/challenges/edabit-arrays.js) and commit your solutions to the file
 
 - Browse in the terminal to the `js-assessment` folder in this repo.
 - Run `npm start`, then goto `http://127.0.0.1:4444/` in your browser.
