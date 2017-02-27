@@ -29,12 +29,12 @@ Your objectives for the day is to achieve:
 
 ### Stretch
 
-- [ ] Skim [You don't know JS](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/ch1.md#practice) and complete the final challenge
+- [x] Skim [You don't know JS](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/ch1.md#practice) and complete the final challenge
 - [ ] Complete [Final Project][udacity]
 - [ ] Watch and complete the [Front End Masters Javascript Introduction](https://frontendmasters.com/courses/javascript-basics/) (2 hours)
 - [ ] Watch the bootcamp videos in the [Core Vanilla Javascript](https://shereef.wistia.com/projects/fwy60ilf20) section
 - [ ] Read Chapters 1,2,3 of [Eloquent Javascript][el]
-- [ ] Complete [CodeCademy's Learn Javasript](https://www.codecademy.com/learn/javascript)
+- [x] Complete [CodeCademy's Learn Javasript](https://www.codecademy.com/learn/javascript)
 
 
 ## Day 2: Arrays, Objects, and lots of Practice
@@ -83,7 +83,7 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
 - [ ] Watch the first 11 [Fundamentals Videos](https://channel9.msdn.com/Series/JavaScript-Fundamentals-Development-for-Absolute-Beginners)
 - [ ] Read pages 173 to 184 in [Professional JS for Web Developers][projs]
 - [ ] Signup for a free Team Treehouse trial and complete their [Object Oriented Javascript Course] (https://teamtreehouse.com/library/objectoriented-javascript)
-- [ ] Skim this [cheat sheet][cheat]
+- [x] Skim this [cheat sheet][cheat]
 
 ## Day 3: Koans and Drills
 
@@ -98,13 +98,13 @@ Let's test our understanding by working on some Koans.
 - [x] Edit AboutObjects.js to make all tests pass
 - [x] Edit AboutFunctions.js to make all tests pass
 - [x] Edit AboutArrays.js to make all tests pass
-- [ ] Edit AboutApplyingWhatWeHaveLearnt.js to make all tests pass
-- [ ] Write all 10 functions described in [/challenges/10exercises.js](/challenges/10exercises.js)
+- [x] Edit AboutApplyingWhatWeHaveLearnt.js to make all tests pass
+- [x] Write all 10 functions described in [/challenges/10exercises.js](/challenges/10exercises.js)
 
 Ok, on for some more drills.
 
-- [ ] Sign up for an [edabit](http://edabit.com) account.
-- [ ] Solve all 10 array challenges linked in [/challenges/edabit-arrays.js](/challenges/edabit-arrays.js) and commit your solutions to the file
+- [x] Sign up for an [edabit](http://edabit.com) account.
+- [x] Solve all 10 array challenges linked in [/challenges/edabit-arrays.js](/challenges/edabit-arrays.js) and commit your solutions to the file
 
 - Browse in the terminal to the `js-assessment` folder in this repo.
 - Run `npm start`, then goto `http://127.0.0.1:4444/` in your browser.
