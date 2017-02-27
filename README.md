@@ -7,7 +7,10 @@ Team members
 Jorge Lopez
 Sally Maki
 
-Original Github Repository
+Project URL
+https://github.com/GuildCrafts/web-development-js/issues/176
+
+Original Github Goal Repository
 https://github.com/GuildCrafts/core-vanilla-javascript
 
 Project Repository
