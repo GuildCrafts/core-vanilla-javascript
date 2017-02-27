@@ -18,8 +18,8 @@ Your objectives for the day is to achieve:
 
 ### Plan
 
-- [ ] Signup for [Udacity Javascript Basics][udacity]
-- [ ] Complete [Getting up and running & Problem Set 0][udacity]
+- [x] Signup for [Udacity Javascript Basics][udacity]
+- [x] Complete [Getting up and running & Problem Set 0][udacity]
 - [ ] Complete [Data Types and Problem Set 1][udacity]
 - [ ] Complete [Flow Control and Problem Set 2][udacity]
 - [ ] Complete [Quiz: Relationships][udacity]
@@ -89,7 +89,7 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
 
 Let's test our understanding by working on some Koans.
 
-*Note: It's pretty easy to make these test pass. What isn't easy is to make sure you undertand WHY they are passing, and don't move on to the next one until you do*
+*Note: It's pretty easy to make these test pass. What isn't easy is to make sure you understand WHY they are passing, and don't move on to the next one until you do*
 
 *Remember: Update this file, and commit your repo, and push to github after every step*
 
