@@ -28,7 +28,7 @@ The final 2 days consist of a final project that demands and develops all your J
 
 Fork the the [core-vanilla-javascript repository][core-vjs] and use the fork as your project artifact.
 
-In the [team_practice.md][core-vjs-team] you'll find that this goal is broken down into daily objectives and tasks in order to support you in pacing yourself. There are a ton of stretch goals at the end, so make sure to go with the recommended pace or faster to get the most out of it.
+In the [team_practice.md][https://github.com/lilvina/core-vanilla-javascript/blob/master/team_practice.md] you'll find that this goal is broken down into daily objectives and tasks in order to support you in pacing yourself. There are a ton of stretch goals at the end, so make sure to go with the recommended pace or faster to get the most out of it.
 
 ## Context
 
