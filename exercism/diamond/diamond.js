@@ -1,21 +1,28 @@
 function diamond(){
-  var letters = ['A','B','C','D','E','F'];
+  var letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+
   this.makeDiamond = function(letter) {
-    count = letters.indexOf(letter);
+
+    var count = letters.indexOf(letter);
+
     var result = [];
-    for(i=0;i<=count;i++){
-      if(i===0){
-        result.push(" ".repeat(count-i) + letters[i] + " ".repeat(count-i));
+
+    for(var i = 0; i <= count; i++) {
+      if(i === 0){
+        result.push(" ".repeat(count - i) + letters[i] + " ".repeat(count - i));
       } else {
-        result.push(" ".repeat(count-i) + letters[i] + " ".repeat(i*2-1) + letters[i] + " ".repeat(count-i));
+        result.push(" ".repeat(count - i) + letters[i] + " ".repeat(i * 2 - 1) + letters[i] + " ".repeat(count-i));
       }
     }
-    reverse = result.slice(0,count).reverse();
-    if(count===0){
+
+    var reverse = result.slice(0, count).reverse();
+
+    if(count === 0) {
       return "A" + "\n";
     } else {
       return result.join("\n") + "\n" + reverse.join("\n") + "\n";
     }
   }
 }
-module.exports = diamond
+
+// module.exports = diamond
