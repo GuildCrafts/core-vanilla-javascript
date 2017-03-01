@@ -34,9 +34,9 @@ Exercism provides a number of practice problems along with unit tests to ensure 
 
 ### Day 2 - Exercism
 
-- [ ] Solve `/exercism/secret-handshake`
-- [ ] Solve `/exercism/wordy`
-- [ ] Solve `/exercism/largest-series-product`
+- [x] Solve `/exercism/secret-handshake`
+- [x] Solve `/exercism/wordy`
+- [x] Solve `/exercism/largest-series-product`
 - [ ] Solve `/exercism/robot-simulator`
 - [ ] Solve `/exercism/rna-transcription`
 - [ ] Solve `/exercism/bob`
