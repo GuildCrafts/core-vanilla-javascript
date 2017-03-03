@@ -29,12 +29,12 @@ Your objectives for the day is to achieve:
 
 ### Stretch
 
-- [x] Skim [You don't know JS](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/ch1.md#practice) and complete the final challenge
-- [x] Complete [Final Project][udacity]
-- [x] Watch and complete the [Front End Masters Javascript Introduction](https://frontendmasters.com/courses/javascript-basics/) (2 hours)
-- [x] Watch the bootcamp videos in the [Core Vanilla Javascript](https://shereef.wistia.com/projects/fwy60ilf20) section
-- [x] Read Chapters 1,2,3 of [Eloquent Javascript][el]
-- [x] Complete [CodeCademy's Learn Javasript](https://www.codecademy.com/learn/javascript)
+- [ ] Skim [You don't know JS](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/ch1.md#practice) and complete the final challenge
+- [ ] Complete [Final Project][udacity]
+- [ ] Watch and complete the [Front End Masters Javascript Introduction](https://frontendmasters.com/courses/javascript-basics/) (2 hours)
+- [ ] Watch the bootcamp videos in the [Core Vanilla Javascript](https://shereef.wistia.com/projects/fwy60ilf20) section
+- [ ] Read Chapters 1,2,3 of [Eloquent Javascript][el]
+- [ ] Complete [CodeCademy's Learn Javasript](https://www.codecademy.com/learn/javascript)
 
 
 ## Day 2: Arrays, Objects, and lots of Practice
@@ -50,7 +50,7 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
 
 ### Plan
 
-- [ ] Complete the last 5 tasks of [Objects Basics Tutorial](https://learn.javascript.info/object)
+- [x] Complete the last 5 tasks of [Objects Basics Tutorial](https://learn.javascript.info/object)
   - [ ] Link to your solution here (jsbin, gist, or a js file in this repo)
 - [ ] Complete the last 5 tasks of [Arrays Tutorial](https://learn.javascript.info/array)
  - [ ] Link to your solution here
@@ -130,16 +130,16 @@ Let's do more Koans to get our day started
 - In your forked repo, find the `Koans` sub directory.
 - Find `jskoansbasics.html` and open it in a browser
 
-- [ ] Find & edit `about_asserts.js` to make the tests pass
-- [ ] Find & edit `about_operators.js` to make the tests pass
-- [ ] Find & edit `about_equality.js` to make the tests pass
-- [ ] Find & edit `about_truthyness.js` to make the tests pass
-- [ ] Find & edit `about_assignment.js` to make the tests pass
-- [ ] Find & edit `about_control_structures.js` to make the tests pass
-- [ ] Find & edit `about_strings.js` to make the tests pass
-- [ ] Find & edit `about_numbers.js` to make the tests pass
-- [ ] Find & edit `about_objects.js` to make the tests pass
-- [ ] Find & edit `about_arrays.js` to make the tests pass
+- [x] Find & edit `about_asserts.js` to make the tests pass
+- [x] Find & edit `about_operators.js` to make the tests pass
+- [x] Find & edit `about_equality.js` to make the tests pass
+- [x] Find & edit `about_truthyness.js` to make the tests pass
+- [x] Find & edit `about_assignment.js` to make the tests pass
+- [x] Find & edit `about_control_structures.js` to make the tests pass
+- [x] Find & edit `about_strings.js` to make the tests pass
+- [x] Find & edit `about_numbers.js` to make the tests pass
+- [x] Find & edit `about_objects.js` to make the tests pass
+- [x] Find & edit `about_arrays.js` to make the tests pass
 
 - Browse in the terminal to the `js-assessment` folder in this repo.
 - Run `npm start`, then goto `http://127.0.0.1:4444/` in your browser.

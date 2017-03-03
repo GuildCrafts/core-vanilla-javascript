@@ -23,7 +23,7 @@ describe('arrays', function() {
     a.push(2); // Make sure the value appears more than one time
     a.push(2); // Make sure the value appears more than one time in a row
     var result = arraysAnswers.remove(a, 2);
-
+    console.log('WHAT IS HAPPENING??', result);
     expect(result).to.have.length(3);
     expect(result.join(' ')).to.eql('1 3 4');
   });
