@@ -12,7 +12,7 @@ exports.arraysAnswers = {
   },
 
   sum: function(arr) {
-    return arr.reduce( ( a , b ) => { return a + b }, 0 )
+    return arr.reduce( (a, b) => { return a + b }, 0 )
   },
 
   remove: function(arr, item) {
@@ -20,13 +20,15 @@ exports.arraysAnswers = {
   },
 
   removeWithoutCopy: function(arr, item) {
-    arr = arr.filter( (element) => { return element !== item } )
+    while ( arr.includes(item) ) {
+      arr.map( (element) => { if ( element === item ) { arr.splice(arr.indexOf(element), 1) }
+      })
+    }
     return arr
   },
 
   append: function(arr, item) {
-    arr[ arr.length++ ] = item
-    return arr
+    return [ ...arr, item ]
   },
 
   truncate: function(arr) {
@@ -47,26 +49,34 @@ exports.arraysAnswers = {
   },
 
   concat: function(arr1, arr2) {
-    
+
   },
 
   insert: function(arr, item, index) {
-
+    return [ arr[index], item, ...arr ]
   },
 
   count: function(arr, item) {
-
+    let occurences = 0
+    arr.map( (element) => { if (element === item) { occurences++ }})
+    return occurences
   },
 
   duplicates: function(arr) {
-
+    
   },
 
   square: function(arr) {
-
+    return arr.map( (element) => { return Math.pow(element, 2) })
   },
 
   findAllOccurrences: function(arr, target) {
-
+    let occurences = []
+    for ( i = 0 ; i < arr.length ; i++ ) {
+      if ( arr[i] === target ) {
+        occurences.push(i)
+      }
+    }
+    return occurences
   }
-};
+}

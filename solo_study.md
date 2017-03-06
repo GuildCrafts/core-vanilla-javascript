@@ -95,10 +95,10 @@ Let's test our understanding by working on some Koans.
 
 - In your forked repo, find the `javascript-koans` sub directory.
 - Find `KoansRunner.html` and open it in a browser
-- [ ] Edit AboutObjects.js to make all tests pass
-- [ ] Edit AboutFunctions.js to make all tests pass
-- [ ] Edit AboutArrays.js to make all tests pass
-- [ ] Edit AboutApplyingWhatWeHaveLearnt.js to make all tests pass
+- [x] Edit AboutObjects.js to make all tests pass
+- [x] Edit AboutFunctions.js to make all tests pass
+- [x] Edit AboutArrays.js to make all tests pass
+- [x] Edit AboutApplyingWhatWeHaveLearnt.js to make all tests pass
 - [ ] Write all 10 functions described in [/challenges/10exercises.js](/challenges/10exercises.js)
 
 Ok, on for some more drills.
@@ -109,7 +109,7 @@ Ok, on for some more drills.
 - Browse in the terminal to the `js-assessment` folder in this repo.
 - Run `npm start`, then goto `http://127.0.0.1:4444/` in your browser.
 - You should see a bunch of failing tests
-- [ ] Update `js-asessment/app/arrays.js` to make the section's tests pass
+- [x] Update `js-asessment/app/arrays.js` to make the section's tests pass
 - [ ] Update `js-asessment/app/strings.js` to make the section's tests pass
 - [ ] Update `js-asessment/app/objects.js` to make the section's tests pass
 - [ ] Update `js-asessment/app/count.js` to make the section's tests pass
