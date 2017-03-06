@@ -18,19 +18,16 @@ Your objectives for the day is to achieve:
 
 ### Plan
 
-- [ ] Signup for [Udacity Javascript Basics][udacity]
-- [ ] Complete [Getting up and running & Problem Set 0][udacity]
-- [ ] Complete [Data Types and Problem Set 1][udacity]
-- [ ] Complete [Flow Control and Problem Set 2][udacity]
-- [ ] Complete [Quiz: Relationships][udacity]
-- [ ] Complete [Quiz: Astronaut Arrays][udacity]
-- [ ] Complete [Quiz: Pagespeed Insights][udacity]
-
+- [ ] Sign up for [Treehouse JavaScript Basics][treehouse-js-basics] course
+- [ ] Complete "Introducing JavaScript"
+- [ ] Complete "Storing and Tracking Information with Variables"
+- [ ] Complete "Working With Numbers"
+- [ ] Complete "Making Decisions with Conditional Statements"
+- [ ] Complete "Creating Reusable Code with Functions"
 
 ### Stretch
 
 - [ ] Skim [You don't know JS](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/ch1.md#practice) and complete the final challenge
-- [ ] Complete [Final Project][udacity]
 - [ ] Watch and complete the [Front End Masters Javascript Introduction](https://frontendmasters.com/courses/javascript-basics/) (2 hours)
 - [ ] Watch the bootcamp videos in the [Core Vanilla Javascript](https://shereef.wistia.com/projects/fwy60ilf20) section
 - [ ] Read Chapters 1,2,3 of [Eloquent Javascript][el]
@@ -181,7 +178,7 @@ Today is going to be a tough one. These challenges are tricky, and will need you
 
 
 [el]:http://eloquentjavascript.net/
-[udacity]:https://www.udacity.com/course/javascript-basics--ud804
+[treehouse-js-basics]: https://teamtreehouse.com/library/javascript-basics
 [projs]:ftp://ftp.micronet-rostov.ru/linux-support/books/programming/JavaScript/Wrox.Professional.JavaScript.for.Web.Developers.3rd.Edition.Jan.2012.pdf
 [ninja]:https://github.com/GuildCrafts/core-object-oriented-javascript/raw/master/Books/Secrets%20of%20the%20JavaScript%20Ninja%20-%20John%20Resig%20and%20Bear%20Bibeault%20-%20December%202012.pdf
 [cheat]:https://github.com/GuildCrafts/core-object-oriented-javascript/raw/master/Books/Objects-Cheat-Sheet.pdf
