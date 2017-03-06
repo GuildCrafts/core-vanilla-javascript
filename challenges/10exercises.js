@@ -81,7 +81,6 @@ function translateCard(card) {
 			return word; }
 	}).join(' ');
 }
-console.log(translateCard("merry christmas and one two merry"));
 
 //Write a function findLongestWord() that takes an array of words and returns the length of the longest one.
 function findLongestWord(array) {
