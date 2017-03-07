@@ -18,12 +18,12 @@ Your objectives for the day is to achieve:
 
 ### Plan
 
-- [ ] Sign up for [Treehouse JavaScript Basics][treehouse-js-basics] course
-- [ ] Complete "Introducing JavaScript"
-- [ ] Complete "Storing and Tracking Information with Variables"
-- [ ] Complete "Working With Numbers"
-- [ ] Complete "Making Decisions with Conditional Statements"
-- [ ] Complete "Creating Reusable Code with Functions"
+- [x] Sign up for [Treehouse JavaScript Basics][treehouse-js-basics] course
+- [x] Complete "Introducing JavaScript"
+- [x] Complete "Storing and Tracking Information with Variables"
+- [x] Complete "Working With Numbers"
+- [x] Complete "Making Decisions with Conditional Statements"
+- [x] Complete "Creating Reusable Code with Functions"
 
 ### Stretch
 
@@ -31,7 +31,7 @@ Your objectives for the day is to achieve:
 - [ ] Watch and complete the [Front End Masters Javascript Introduction](https://frontendmasters.com/courses/javascript-basics/) (2 hours)
 - [ ] Watch the bootcamp videos in the [Core Vanilla Javascript](https://shereef.wistia.com/projects/fwy60ilf20) section
 - [ ] Read Chapters 1,2,3 of [Eloquent Javascript][el]
-- [ ] Complete [CodeCademy's Learn Javasript](https://www.codecademy.com/learn/javascript)
+- [x] Complete [CodeCademy's Learn Javasript](https://www.codecademy.com/learn/javascript)
 
 
 ## Day 2: Arrays, Objects, and lots of Practice
