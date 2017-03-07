@@ -60,9 +60,9 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
 
 - [x] Complete the [Array Exercises](https://github.com/bgando/array-exercises)
 - [x] Link to your solution here: dayTwoExercises.js
-- [ ] Complete the [Function Exercises](https://github.com/bgando/function-exercises)
+- [x] Complete the [Function Exercises](https://github.com/bgando/function-exercises)
 - [x] Link to your solution here: dayTwoExercises.js
-- [ ] Complete the [Object Exercises](https://github.com/bgando/object-exercises)
+- [x] Complete the [Object Exercises](https://github.com/bgando/object-exercises)
 - [x] Link to your solution here: dayTwoExercises.js
 
 - Browse in the terminal to the `js-assessment` folder in this repo.

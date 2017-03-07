@@ -76,7 +76,6 @@ animals.push(hippo, chicken)
 console.log(animals.length)
 
 
-// Animal User
 
 // Write a function, AnimalTestUser, that has one string parameter, username. 
 // It returns an object with a username property
@@ -160,3 +159,55 @@ function giveMatches(farm) {
 		animal.matches.push(animal.friends[0])
 	}
 }
+
+
+
+// Create a variable, name it animal, and assign it an object literal.
+var animal = {}
+
+// With Dot Notation… 
+// Add a property called username and assign it a value
+// Ensure that your username property exists in animal by inspecting it in the console
+animal.username = 'je-lopez'
+console.log(animal)
+
+
+// With Bracket Notation…
+// Add a property called tagline and give it a value.
+// Check that your property exists in the animal object by inspecting it in the console.
+// Create a variable called noises and assign it an empty array []
+// Add the noises array to your object.
+// Inspect your handiwork!
+animal['tagline'] = 'I am Jorge'
+console.log(animal)
+
+var noises = []
+animal.noises = noises
+console.log(animal)
+
+
+// Loop through the properties of your animal object.
+// Count everytime it loops to keep track of the number of properties on your object.
+// Write an if/else statement in your loop:
+// If the key is username, console.log('Hi my name is ' + ___) //fill in with object's username value.
+// If the key is tagline, console.log('I like to say ' + ___) //fill in with object's tagline value.
+Object.keys(animal).forEach(function (key) {
+	switch(key) {
+		case 'username':
+			console.log('Hi my name is ' + animal[key])
+			break
+		case 'tagline':
+			console.log('I like to say ' + animal[key])
+	}
+})
+
+// What happens if you return 'Hi my name is ' + ___ instead of using console.log() inside the loop?
+"using return alone will not print anything"
+
+
+// What are the different ways you can add properties and values to objects?
+"you can add properties using dot or bracket notation: obj.prop = value, obj['prop'] = value"
+// Which of these methods would you use if you wanted to add a property to an object that had a weird symbol (think '&')?
+"I would use bracket notation"
+// What about if the property is a variable, how does that change the syntax?
+"if the property is a variable, use bracket notation without parenthesis: obj[variable] = value"
