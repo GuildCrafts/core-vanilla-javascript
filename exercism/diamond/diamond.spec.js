@@ -3,30 +3,31 @@ var Diamond = require('./diamond');
 describe('Diamond', function() {
   var diamond = new Diamond();
 
-  it('test letter A', function() {
-    result = "A\n";
-    expect(diamond.makeDiamond('A')).toEqual(result);
+  it('"A" should just return "A\\n"', function() {
+    expect(diamond.makeDiamond('A')).toEqual("A\n");
   });
 
-  it('test letter C', function() {
-    result = ["  A  ",
-              " B B ",
-              "C   C",
-              " B B ",
-              "  A  "].join("\n") + "\n";
-    expect(diamond.makeDiamond('C')).toEqual(result);
+  it('"C" should return a 5 high diamond', function() {
+    expect(diamond.makeDiamond('C')).toEqual(
+      "  A  \n"+
+      " B B \n"+
+      "C   C\n"+
+      " B B \n"+
+      "  A  \n"
+    );
   });
 
-  it('test letter E', function() {
-    result = ["    A    ",
-              "   B B   ",
-              "  C   C  ",
-              " D     D ",
-              "E       E",
-              " D     D ",
-              "  C   C  ",
-              "   B B   ",
-              "    A    "].join("\n") + "\n";
-    expect(diamond.makeDiamond('E')).toEqual(result);
+  it('"E" should return a 9 high diamond', function() {
+    expect(diamond.makeDiamond('E')).toEqual(
+      "    A    \n"+
+      "   B B   \n"+
+      "  C   C  \n"+
+      " D     D \n"+
+      "E       E\n"+
+      " D     D \n"+
+      "  C   C  \n"+
+      "   B B   \n"+
+      "    A    \n"
+    );
   });
 });
