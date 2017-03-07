@@ -68,9 +68,9 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
 - Browse in the terminal to the `js-assessment` folder in this repo.
 - Run `npm install` and `npm start`, then goto `http://127.0.0.1:4444/` in your browser.
 - You should see a bunch of failing tests
-- [ ] Update `js-asessment/app/flowControl.js` to make the section's tests pass
-- [ ] Update `js-asessment/app/logicalOperators.js` to make the section's tests pass
-- [ ] Update `js-asessment/app/logicalNumbers.js` to make the section's tests pass
+- [x] Update `js-asessment/app/flowControl.js` to make the section's tests pass
+- [x] Update `js-asessment/app/logicalOperators.js` to make the section's tests pass
+- [x] Update `js-asessment/app/logicalNumbers.js` to make the section's tests pass
 
 
 ### Stretch
