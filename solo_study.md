@@ -53,17 +53,17 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
 - [x] Link to your solution here: dayTwoTasks.js
 - [x] Complete the last 5 tasks of [Array Methods](https://learn.javascript.info/array-methods)
 - [x] Link to your solution here: dayTwoTasks.js
-- [ ] Complete the [Learn JS Basics tutorial](http://www.learn-js.org/en/Welcome)
-- [ ] Complete the [Learn JS Objects tutorial](http://www.learn-js.org/en/Object_Oriented_JavaScript)
+- [x] Complete the [Learn JS Basics tutorial](http://www.learn-js.org/en/Welcome)
+- [x] Complete the [Learn JS Objects tutorial](http://www.learn-js.org/en/Object_Oriented_JavaScript)
 
 *These next 3 steps are part of [Front End Masters JS Course](https://frontendmasters.com/courses/js-fundamentals-to-functional/). You might need to watch the videos and part of the course to make it through. Reach out to staff for an invite code if you don't already have an account.*
 
-- [ ] Complete the [Array Exercises](https://github.com/bgando/array-exercises)
-- [ ] Link to your solution here
+- [x] Complete the [Array Exercises](https://github.com/bgando/array-exercises)
+- [x] Link to your solution here: dayTwoExercises.js
 - [ ] Complete the [Function Exercises](https://github.com/bgando/function-exercises)
-- [ ] Link to your solution here
+- [x] Link to your solution here: dayTwoExercises.js
 - [ ] Complete the [Object Exercises](https://github.com/bgando/object-exercises)
-- [ ] Link to your solution here
+- [x] Link to your solution here: dayTwoExercises.js
 
 - Browse in the terminal to the `js-assessment` folder in this repo.
 - Run `npm install` and `npm start`, then goto `http://127.0.0.1:4444/` in your browser.
@@ -79,7 +79,7 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
 - [ ] Read [Javascript Objects in Detail](http://javascriptissexy.com/javascript-objects-in-detail/)
 - [ ] Watch the first 11 [Fundamentals Videos](https://channel9.msdn.com/Series/JavaScript-Fundamentals-Development-for-Absolute-Beginners)
 - [ ] Read pages 173 to 184 in [Professional JS for Web Developers][projs]
-- [ ] Signup for a free Team Treehouse trial and complete their [Object Oriented Javascript Course] (https://teamtreehouse.com/library/objectoriented-javascript)
+- [ ] Signup for a free Team Treehouse trial and complete their [Object Oriented Javascript Course](https://teamtreehouse.com/library/objectoriented-javascript)
 - [ ] Skim this [cheat sheet][cheat]
 
 ## Day 3: Koans and Drills
