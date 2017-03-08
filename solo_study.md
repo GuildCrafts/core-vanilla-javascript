@@ -95,8 +95,8 @@ Let's test our understanding by working on some Koans.
 - [x] Edit AboutObjects.js to make all tests pass
 - [x] Edit AboutFunctions.js to make all tests pass
 - [x] Edit AboutArrays.js to make all tests pass
-- [ ] Edit AboutApplyingWhatWeHaveLearnt.js to make all tests pass
-- [ ] Write all 10 functions described in [/challenges/10exercises.js](/challenges/10exercises.js)
+- [x] Edit AboutApplyingWhatWeHaveLearnt.js to make all tests pass
+- [x] Write all 10 functions described in [/challenges/10exercises.js](/challenges/10exercises.js)
 
 Ok, on for some more drills.
 
