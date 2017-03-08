@@ -100,7 +100,7 @@ Let's test our understanding by working on some Koans.
 
 Ok, on for some more drills.
 
-- [ ] Sign up for an [edabit](http://edabit.com) account.
+- [x] Sign up for an [edabit](http://edabit.com) account.
 - [ ] Solve all 10 array challenges linked in [/challenges/edabit-arrays.js](/challenges/edabit-arrays.js) and commit your solutions to the file
 
 - Browse in the terminal to the `js-assessment` folder in this repo.
