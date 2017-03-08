@@ -101,12 +101,12 @@ Let's test our understanding by working on some Koans.
 Ok, on for some more drills.
 
 - [x] Sign up for an [edabit](http://edabit.com) account.
-- [ ] Solve all 10 array challenges linked in [/challenges/edabit-arrays.js](/challenges/edabit-arrays.js) and commit your solutions to the file
+- [x] Solve all 10 array challenges linked in [/challenges/edabit-arrays.js](/challenges/edabit-arrays.js) and commit your solutions to the file
 
 - Browse in the terminal to the `js-assessment` folder in this repo.
 - Run `npm start`, then goto `http://127.0.0.1:4444/` in your browser.
 - You should see a bunch of failing tests
-- [ ] Update `js-asessment/app/arrays.js` to make the section's tests pass
+- [x] Update `js-asessment/app/arrays.js` to make the section's tests pass
 - [ ] Update `js-asessment/app/strings.js` to make the section's tests pass
 - [ ] Update `js-asessment/app/objects.js` to make the section's tests pass
 - [ ] Update `js-asessment/app/count.js` to make the section's tests pass
