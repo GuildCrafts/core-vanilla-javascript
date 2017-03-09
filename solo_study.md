@@ -127,16 +127,16 @@ Let's do more Koans to get our day started
 - In your forked repo, find the `Koans` sub directory.
 - Find `jskoansbasics.html` and open it in a browser
 
-- [ ] Find & edit `about_asserts.js` to make the tests pass
-- [ ] Find & edit `about_operators.js` to make the tests pass
-- [ ] Find & edit `about_equality.js` to make the tests pass
-- [ ] Find & edit `about_truthyness.js` to make the tests pass
-- [ ] Find & edit `about_assignment.js` to make the tests pass
-- [ ] Find & edit `about_control_structures.js` to make the tests pass
-- [ ] Find & edit `about_strings.js` to make the tests pass
-- [ ] Find & edit `about_numbers.js` to make the tests pass
-- [ ] Find & edit `about_objects.js` to make the tests pass
-- [ ] Find & edit `about_arrays.js` to make the tests pass
+- [x] Find & edit `about_asserts.js` to make the tests pass
+- [x] Find & edit `about_operators.js` to make the tests pass
+- [x] Find & edit `about_equality.js` to make the tests pass
+- [x] Find & edit `about_truthyness.js` to make the tests pass
+- [x] Find & edit `about_assignment.js` to make the tests pass
+- [x] Find & edit `about_control_structures.js` to make the tests pass
+- [x] Find & edit `about_strings.js` to make the tests pass
+- [x] Find & edit `about_numbers.js` to make the tests pass
+- [x] Find & edit `about_objects.js` to make the tests pass
+- [x] Find & edit `about_arrays.js` to make the tests pass
 
 - Browse in the terminal to the `js-assessment` folder in this repo.
 - Run `npm start`, then goto `http://127.0.0.1:4444/` in your browser.
