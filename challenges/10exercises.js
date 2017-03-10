@@ -1,6 +1,12 @@
 // Define a function max() that takes two numbers as arguments and returns the largest of them.
 // Use the if-then-else construct available in Javascript.
 
+function max(1, 9) {
+  if max {
+
+  }
+}
+
 // Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
 
 // Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
