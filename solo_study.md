@@ -150,8 +150,8 @@ Exercism provides a number of practice problems along with unit tests to ensure 
 - Read the [Exercism setup](/exercism/setup.md) instructions
 
 - [x] Solve `/exercism/saddle-points`
-- [ ] Solve `/exercism/meetup`
-- [ ] Solve `/exercism/matrix`
+- [ ] Solve `/exercism/meetup` 
+- [x] Solve `/exercism/matrix`
 
 ## Day 5: More challenges
 

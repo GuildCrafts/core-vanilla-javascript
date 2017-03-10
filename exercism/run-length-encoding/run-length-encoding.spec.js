@@ -6,19 +6,19 @@ describe('Run-length encoding', function() {
 		expect(RLE.encode('')).toEqual('');
 	});
 
-	xit('encode single characters only', function() {
+	it('encode single characters only', function() {
 		expect(RLE.encode('XYZ')).toEqual('XYZ');
 	});
 
-	xit('decode empty string', function() {
+	it('decode empty string', function() {
 		expect(RLE.decode('')).toEqual('');
 	});
 
-	xit('decode single characters only', function() {
+	it('decode single characters only', function() {
 		expect(RLE.decode('XYZ')).toEqual('XYZ');
 	});
 
-	xit('encode simple', function() {
+	it('encode simple', function() {
 		expect(RLE.encode('AABBBCCCC')).toEqual('2A3B4C');
 	});
 
