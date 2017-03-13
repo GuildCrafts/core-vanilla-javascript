@@ -2,19 +2,15 @@
 
 A day-by-day structured deep dive into the basics JavaScript. Read articles, watch videos, complete lessons and exercises, and implement a final project.
 
-## Day 1: Variables, Flow control, and Functions
+## Day 1: Variables, Flow Control, and Functions
 
-Your objectives for the day is to achieve:
+Your objectives for the day are to achieve:
 
 - Basic understanding of variables
-- Basic string and array manipulation
+- Basic string manipulation
 - Understand 'truthy' and 'falsey'
-- Understand literal notation
-- Understand dot bracket notation
-- Basic understanding of JSON
-- Understand Operator precedence
-- Practice Flow control: iteration, if, switch, while, for loops
-- Understand and practice Functions: arguments, arity, return, scope
+- Practice flow control with conditionals
+- Understand and practice functions: arguments, return, scope
 
 ### Plan
 
@@ -24,6 +20,7 @@ Your objectives for the day is to achieve:
 - [ ] Complete "Working With Numbers"
 - [ ] Complete "Making Decisions with Conditional Statements"
 - [ ] Complete "Creating Reusable Code with Functions"
+- [ ] Read about ["Truthy"](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) and ["Falsey"](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) values in this article: https://j11y.io/javascript/truthy-falsey/
 
 ### Stretch
 
@@ -36,8 +33,7 @@ Your objectives for the day is to achieve:
 
 ## Day 2: Arrays, Objects, and lots of Practice
 
-
-Today you objectives are to put in practice the concepts you learned yesterday. It's a good opportunity to practice researching, asking for help, basic debugging, and problem solving. You will
+Today your objectives are to put in practice the concepts you learned yesterday. It's a good opportunity to practice researching, asking for help, basic debugging, and problem solving. You will
 
 - Complete other beginner javascript tutorials
 - Dive deeper into Arrays and Objects
