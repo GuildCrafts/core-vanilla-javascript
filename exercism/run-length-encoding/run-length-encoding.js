@@ -1,45 +1,57 @@
-// xit('decode single characters only', function() {
-// 	expect(RLE.decode('XYZ')).toEqual('XYZ');
-// });
-
-// xit('encode simple', function() {
-// 	expect(RLE.encode('AABBBCCCC')).toEqual('2A3B4C');
-// });
 function encode(string) {
-	if ( isEmpty(string) ) return string
+	string = string.split('')
 
 	let encoded = []
+	let counter = 1
 
-	for ( let i = 0; i < string.length; i++ ) {
-		if ( string.indexOf(string[i]) === string.lastIndexOf(string[i]) ) {
-
-			encoded.push(string[i])
+	string.forEach(function (letter, index) {
+		if ( letter === string[index + 1] ) {
+			counter++
 		} else {
-			string.split('').reduce(function (acc, item) {
-				
-			}, [])
+			if ( counter === 1 ) {
+				encoded.push(letter)
+			} else {
+				encoded.push(counter, letter)
+				counter = 1
+			}
 		}
-	}
+	})
 
 	return encoded.join('')
 }
 
 function decode(string) {
-	if ( isEmpty(string) ) return string
-
 	let decoded = []
 
-	for ( let i = 0; i < string.length; i++ ) {
-		if ( string.indexOf(string[i]) === string.lastIndexOf(string[i]) ) {
+	for (let i = 0; i < string.length; i++) {
+
+		if ( isNaN(string[i]) || string[i] === ' ' ) {
 			decoded.push(string[i])
+		} else {
+
+			if ( !isNaN(string[i - 1]) ) {
+				decoded.push(string[i + 1])
+			} else {
+
+				if ( !isNaN(string[i + 1]) ) {
+					let number = parseInt(string[i] + string[i + 1])
+
+					for (let index = 0; index < number - 2; index++) {
+						decoded.push(string[i + 2])
+					}	
+				} else {
+					let number = parseInt(string[i])
+					
+					for (let index = 0; index < number - 1; index++) {
+						decoded.push(string[i + 1])	
+					}
+				}
+
+			}
 		}
 	}
 
 	return decoded.join('')
-}
-
-function isEmpty(string) {
-	return string.length === 0
 }
 
 module.exports = { encode, decode }

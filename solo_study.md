@@ -157,13 +157,14 @@ Exercism provides a number of practice problems along with unit tests to ensure 
 
 Today is going to be a tough one. These challenges are tricky, and will need you to be focussed 100% to make it through:
 
-- [ ] Solve `/exercism/run-length-encoding`
+- [x] Solve `/exercism/run-length-encoding`
 - [ ] Solve `/exercism/crypto-square`
-- [ ] Solve `/exercism/pig-latin`
+- [x] Solve `/exercism/pig-latin`
 - [ ] Solve `/exercism/series`
 - [ ] Solve `/exercism/flatten-array`
 - [ ] Solve `/exercism/difference-of-squares`
 
+ 44/56
 
 #### Stretch
 
