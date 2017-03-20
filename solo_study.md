@@ -16,7 +16,7 @@ Your objectives for the day are to achieve:
 
 - [x] Sign up for [Treehouse JavaScript Basics][treehouse-js-basics] course
 - [x] Complete "Introducing JavaScript"
-- [ ] Complete "Storing and Tracking Information with Variables"
+- [x] Complete "Storing and Tracking Information with Variables"
 - [ ] Complete "Working With Numbers"
 - [ ] Complete "Making Decisions with Conditional Statements"
 - [ ] Complete "Creating Reusable Code with Functions"
