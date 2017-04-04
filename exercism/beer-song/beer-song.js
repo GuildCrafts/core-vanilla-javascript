@@ -14,6 +14,37 @@ BeerSong.prototype.verse = function (verse) {
   return song;
 }
 
+function buildFinalString(currentBottles, remBottles) {
+  return 'Take ' + currentBottles + ' down and pass it around, ' + (verse - 1) + ' bottle of beer on the wall.\n'
+}
+
+function(numBottles, isPlural) {
+  let pronoun, remBottles, currentBottles, finalString;
+  if(isPlural) {
+    pronoun = 'them'
+  } else {
+    pronoun = 'it'
+  }
+  switch(numBottles) {
+    case 0:
+      currentBottles = 'no more bottles'
+      finalString =  'Go to the store and buy some more, 99 bottles of beer on the wall'
+      break
+    case 1:
+      currentBottles = '1 bottle'
+      remBottles = 'No more'
+      break
+    case 2:
+      currentBottles = '2 bottles'
+      remBottles = '1 bottle'
+    default:
+      currentBottles = currentBottles + ' bottles'
+  }
+  isPlural ? pronoun = 'them' : pronoun = 'it' //TERNARY operator
+  song = (verse + ' bottles of beer on the wall, ' + verse + ' bottles of beer.\nTake one down and pass it around, ' + (verse - 1) + ' bottles of beer on the wall.\n');
+
+}
+
 BeerSong.prototype.sing = function (start, stop) {
 
   var song = '';
