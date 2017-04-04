@@ -13,7 +13,6 @@ Exercism provides a number of practice problems along with unit tests to ensure 
 ### Day 1 - Exercism
 
 - [ ] Solve `/exercism/binary-search`
-- [ ] Solve `/exercism/binary-search-tree`
 - [ ] Solve `/exercism/pangram`
 - [ ] Solve `/exercism/anagram`
 - [ ] Solve `/exercism/food-chain`
