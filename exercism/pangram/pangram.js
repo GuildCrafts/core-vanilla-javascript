@@ -11,25 +11,17 @@ Pangram.prototype.isPangram = function() {
   if ( this.str.length < 1 || typeof this.str !== 'string' ) {
     return false
   } else {
+    this.str = this.str.toLowerCase()
     for ( var i = 0; i < this.str.length; i++ ) {
       this.asciiLookup[this.str[i]] = 1
     }
-    for (var prop in this.asciiLookup) {
-      if ( this.asciiLookup[prop] === 1 ) {
-        return true
-      } else {
+    for ( var prop in this.asciiLookup ) {
+      if ( this.asciiLookup[prop] === 0 ) {
         return false
       }
     }
+    return true
   }
 }
 
 module.exports = Pangram
-
-// var thing = new Pangram( 'the quick brown fox jumps over the lazy dog' )
-//
-// console.log(thing.isPangram())
-// console.log( thing.asciiLookup)
-
-//turn characters to upper case
-//remove symbols
