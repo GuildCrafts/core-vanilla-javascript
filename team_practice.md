@@ -1,3 +1,9 @@
+#stingy-pademelon 
+
+Rhonda Smith
+Thomas Dunn
+
+
 # Core Vanilla JavaScript - Team Practice - 1
 
 A marathon of pair exercises in pure javascript. Capped with a final project.
