@@ -11,7 +11,7 @@ Exercism provides a number of practice problems along with unit tests to ensure 
 
 ### Day 1 - Exercism
 
-- [ ] Solve `/exercism/hamming`
+- [x] Solve `/exercism/hamming`
 - [ ] Solve `/exercism/diamond`
 - [ ] Solve `/exercism/bracket-push`
 - [ ] Solve `/exercism/ocr-numbers`
@@ -27,7 +27,7 @@ Exercism provides a number of practice problems along with unit tests to ensure 
 - [ ] Solve `/exercism/`
 - [ ] Solve `/exercism/`
 
-- [ ] Solve `/exercism/phone-number`
+- [x] Solve `/exercism/phone-number`
 - [ ] Solve `/exercism/word-count`
 - [ ] Solve `/exercism/gigasecond`
 - [ ] Solve `/exercism/leap`
@@ -63,7 +63,7 @@ Exercism provides a number of practice problems along with unit tests to ensure 
 
 - [ ] Solve `/exercism/luhn`
 - [ ] Solve `/exercism/pythagorean-triplet`
-- [ ] Solve `/exercism/beer-song`
+- [x] Solve `/exercism/beer-song`
 - [ ] Solve `/exercism/grade-school`
 
 
