@@ -2,10 +2,12 @@ var accumulate = require('./accumulate');
 
 describe('accumulate()', function() {
 
-  it('accumulation empty', function() {
+  xit('accumulation empty', function() {
     var accumulator = function(e) { return e * e; };
     expect(accumulate([], accumulator)).toEqual([]);
   });
+
+
 
   xit('accumulate squares', function() {
     var accumulator = function(number) {
@@ -17,7 +19,7 @@ describe('accumulate()', function() {
     expect(result).toEqual([1, 4, 9]);
   });
 
-  xit('accumulate upcases', function() {
+  it('accumulate upcases', function() {
     var accumulator = function(word) {
       return word.toUpperCase();
     };

@@ -18,7 +18,9 @@ The number 42, *in base 10*, means:
 
 (4 * 10^1) + (2 * 10^0)
 
-The number 101010, *in base 2*, means:
+The number 101010, *in base
+
+ 2*, means:
 
 (1 * 2^5) + (0 * 2^4) + (1 * 2^3) + (0 * 2^2) + (1 * 2^1) + (0 * 2^0)
 
@@ -53,4 +55,3 @@ changing `xit` to `it`.
 
 ## Submitting Incomplete Problems
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
-
