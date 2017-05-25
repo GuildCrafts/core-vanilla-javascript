@@ -14,13 +14,13 @@ Your objectives for the day are to achieve:
 
 ### Plan
 
-- [ ] Sign up for [Treehouse JavaScript Basics][treehouse-js-basics] course
-- [ ] Complete "Introducing JavaScript"
-- [ ] Complete "Storing and Tracking Information with Variables"
-- [ ] Complete "Working With Numbers"
-- [ ] Complete "Making Decisions with Conditional Statements"
-- [ ] Complete "Creating Reusable Code with Functions"
-- [ ] Read about ["Truthy"](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) and ["Falsey"](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) values in this article: https://j11y.io/javascript/truthy-falsey/
+- [x] Sign up for [Treehouse JavaScript Basics][treehouse-js-basics] course
+- [x] Complete "Introducing JavaScript"
+- [x] Complete "Storing and Tracking Information with Variables"
+- [x] Complete "Working With Numbers"
+- [x] Complete "Making Decisions with Conditional Statements"
+- [x] Complete "Creating Reusable Code with Functions"
+- [x] Read about ["Truthy"](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) and ["Falsey"](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) values in this article: https://j11y.io/javascript/truthy-falsey/
 
 ### Stretch
 
